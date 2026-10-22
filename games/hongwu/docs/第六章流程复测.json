@@ -1,0 +1,308 @@
+{
+  "checks": 8652,
+  "result": "PASS",
+  "nodes": 24,
+  "battles": 11,
+  "runs": [
+    {
+      "origin": "independent",
+      "choice": "steady",
+      "care": 1,
+      "fund": 51,
+      "careSupplies": 35,
+      "battles": [
+        {
+          "id": "C6-02A",
+          "kind": "blockade",
+          "ticks": 125,
+          "loss": 346
+        },
+        {
+          "id": "C6-03A",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C6-02B",
+          "kind": "hill",
+          "ticks": 115,
+          "loss": 298
+        },
+        {
+          "id": "C6-X01",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 290
+        },
+        {
+          "id": "C6-06A",
+          "kind": "westgate",
+          "ticks": 248,
+          "loss": 534
+        },
+        {
+          "id": "C6-06B",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C6-06C",
+          "kind": "siege",
+          "ticks": 125,
+          "loss": 356
+        },
+        {
+          "id": "C6-X03",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C6-X05",
+          "kind": "defense",
+          "ticks": 260,
+          "loss": 545
+        },
+        {
+          "id": "C6-X06",
+          "kind": "pincer",
+          "ticks": 171,
+          "loss": 492
+        },
+        {
+          "id": "C6-06E",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        }
+      ]
+    },
+    {
+      "origin": "independent",
+      "choice": "urgent",
+      "care": 6,
+      "fund": 66,
+      "careSupplies": 30,
+      "battles": [
+        {
+          "id": "C6-02A",
+          "kind": "blockade",
+          "ticks": 130,
+          "loss": 379
+        },
+        {
+          "id": "C6-03A",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 310
+        },
+        {
+          "id": "C6-02B",
+          "kind": "hill",
+          "ticks": 112,
+          "loss": 281
+        },
+        {
+          "id": "C6-X01",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 305
+        },
+        {
+          "id": "C6-06A",
+          "kind": "westgate",
+          "ticks": 274,
+          "loss": 450
+        },
+        {
+          "id": "C6-06B",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 308
+        },
+        {
+          "id": "C6-06C",
+          "kind": "siege",
+          "ticks": 131,
+          "loss": 387
+        },
+        {
+          "id": "C6-X03",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 308
+        },
+        {
+          "id": "C6-X05",
+          "kind": "defense",
+          "ticks": 260,
+          "loss": 484
+        },
+        {
+          "id": "C6-X06",
+          "kind": "pincer",
+          "ticks": 219,
+          "loss": 559
+        },
+        {
+          "id": "C6-06E",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 308
+        }
+      ]
+    },
+    {
+      "origin": "inherited",
+      "choice": "steady",
+      "care": 4,
+      "fund": 51,
+      "careSupplies": 32,
+      "battles": [
+        {
+          "id": "C6-02A",
+          "kind": "blockade",
+          "ticks": 125,
+          "loss": 346
+        },
+        {
+          "id": "C6-03A",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C6-02B",
+          "kind": "hill",
+          "ticks": 115,
+          "loss": 298
+        },
+        {
+          "id": "C6-X01",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 290
+        },
+        {
+          "id": "C6-06A",
+          "kind": "westgate",
+          "ticks": 248,
+          "loss": 534
+        },
+        {
+          "id": "C6-06B",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C6-06C",
+          "kind": "siege",
+          "ticks": 125,
+          "loss": 356
+        },
+        {
+          "id": "C6-X03",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C6-X05",
+          "kind": "defense",
+          "ticks": 260,
+          "loss": 545
+        },
+        {
+          "id": "C6-X06",
+          "kind": "pincer",
+          "ticks": 171,
+          "loss": 492
+        },
+        {
+          "id": "C6-06E",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        }
+      ]
+    },
+    {
+      "origin": "inherited",
+      "choice": "urgent",
+      "care": 9,
+      "fund": 66,
+      "careSupplies": 27,
+      "battles": [
+        {
+          "id": "C6-02A",
+          "kind": "blockade",
+          "ticks": 130,
+          "loss": 377
+        },
+        {
+          "id": "C6-03A",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 308
+        },
+        {
+          "id": "C6-02B",
+          "kind": "hill",
+          "ticks": 112,
+          "loss": 281
+        },
+        {
+          "id": "C6-X01",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 305
+        },
+        {
+          "id": "C6-06A",
+          "kind": "westgate",
+          "ticks": 250,
+          "loss": 426
+        },
+        {
+          "id": "C6-06B",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 308
+        },
+        {
+          "id": "C6-06C",
+          "kind": "siege",
+          "ticks": 130,
+          "loss": 379
+        },
+        {
+          "id": "C6-X03",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 308
+        },
+        {
+          "id": "C6-X05",
+          "kind": "defense",
+          "ticks": 260,
+          "loss": 491
+        },
+        {
+          "id": "C6-X06",
+          "kind": "pincer",
+          "ticks": 171,
+          "loss": 492
+        },
+        {
+          "id": "C6-06E",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 308
+        }
+      ]
+    }
+  ]
+}

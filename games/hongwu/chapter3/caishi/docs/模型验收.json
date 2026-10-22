@@ -1,0 +1,1034 @@
+{
+  "checks": 4135,
+  "scenarios": 54,
+  "wins": 48,
+  "failures": 6,
+  "results": [
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "volley",
+      "phase": "result",
+      "round": 7,
+      "ashore": 171,
+      "wounded": 29,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 6
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 7,
+      "ashore": 171,
+      "wounded": 29,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 6
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "hold",
+      "phase": "result",
+      "round": 7,
+      "ashore": 171,
+      "wounded": 29,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 2,
+      "wood": 3,
+      "fatigue": 8
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "volley",
+      "phase": "result",
+      "round": 13,
+      "ashore": 142,
+      "wounded": 58,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 2
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 13,
+      "ashore": 142,
+      "wounded": 58,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 2
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "hold",
+      "phase": "result",
+      "round": 13,
+      "ashore": 142,
+      "wounded": 58,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 3,
+      "fatigue": 4
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "volley",
+      "phase": "result",
+      "round": 9,
+      "ashore": 160,
+      "wounded": 40,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 0
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 9,
+      "ashore": 160,
+      "wounded": 40,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 0
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "hold",
+      "phase": "result",
+      "round": 9,
+      "ashore": 160,
+      "wounded": 40,
+      "ships": 4,
+      "shipCondition": 78,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 3,
+      "fatigue": 2
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "volley",
+      "phase": "result",
+      "round": 9,
+      "ashore": 151,
+      "wounded": 49,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 9
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 9,
+      "ashore": 151,
+      "wounded": 49,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 9
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "hold",
+      "phase": "result",
+      "round": 9,
+      "ashore": 155,
+      "wounded": 45,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 3,
+      "fatigue": 11
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "volley",
+      "phase": "result",
+      "round": 16,
+      "ashore": 120,
+      "wounded": 80,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 4
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 16,
+      "ashore": 120,
+      "wounded": 80,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 4
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "hold",
+      "phase": "result",
+      "round": 16,
+      "ashore": 124,
+      "wounded": 76,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 3,
+      "fatigue": 6
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "volley",
+      "phase": "result",
+      "round": 12,
+      "ashore": 131,
+      "wounded": 69,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 2
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 12,
+      "ashore": 131,
+      "wounded": 69,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 3,
+      "fatigue": 2
+    },
+    {
+      "preps": [
+        "signals",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "hold",
+      "phase": "result",
+      "round": 12,
+      "ashore": 142,
+      "wounded": 58,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 3,
+      "fatigue": 4
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "volley",
+      "phase": "result",
+      "round": 7,
+      "ashore": 161,
+      "wounded": 39,
+      "ships": 4,
+      "shipCondition": 77,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 6
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 7,
+      "ashore": 161,
+      "wounded": 39,
+      "ships": 4,
+      "shipCondition": 77,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 6
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "hold",
+      "phase": "result",
+      "round": 7,
+      "ashore": 158,
+      "wounded": 42,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 2,
+      "wood": 2,
+      "fatigue": 8
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "volley",
+      "phase": "result",
+      "round": 15,
+      "ashore": 129,
+      "wounded": 71,
+      "ships": 4,
+      "shipCondition": 77,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 4
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 15,
+      "ashore": 129,
+      "wounded": 71,
+      "ships": 4,
+      "shipCondition": 77,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 4
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "hold",
+      "phase": "result",
+      "round": 15,
+      "ashore": 126,
+      "wounded": 74,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 6
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "volley",
+      "phase": "result",
+      "round": 10,
+      "ashore": 140,
+      "wounded": 60,
+      "ships": 4,
+      "shipCondition": 77,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 0
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 10,
+      "ashore": 140,
+      "wounded": 60,
+      "ships": 4,
+      "shipCondition": 77,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 0
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "hold",
+      "phase": "result",
+      "round": 10,
+      "ashore": 147,
+      "wounded": 53,
+      "ships": 4,
+      "shipCondition": 72,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 2
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "volley",
+      "phase": "result",
+      "round": 9,
+      "ashore": 147,
+      "wounded": 53,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 9
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 9,
+      "ashore": 147,
+      "wounded": 53,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 9
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "hold",
+      "phase": "result",
+      "round": 9,
+      "ashore": 153,
+      "wounded": 47,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 11
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "volley",
+      "phase": "failed",
+      "round": 18,
+      "ashore": 105,
+      "wounded": 95,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 18
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "reserve",
+      "phase": "failed",
+      "round": 18,
+      "ashore": 105,
+      "wounded": 95,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 18
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "hold",
+      "phase": "failed",
+      "round": 18,
+      "ashore": 114,
+      "wounded": 86,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 20
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "volley",
+      "phase": "result",
+      "round": 13,
+      "ashore": 124,
+      "wounded": 76,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 2
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 13,
+      "ashore": 124,
+      "wounded": 76,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 2
+    },
+    {
+      "preps": [
+        "signals",
+        "hulls"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "hold",
+      "phase": "result",
+      "round": 13,
+      "ashore": 135,
+      "wounded": 65,
+      "ships": 4,
+      "shipCondition": 76,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 4
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "volley",
+      "phase": "result",
+      "round": 9,
+      "ashore": 156,
+      "wounded": 44,
+      "ships": 4,
+      "shipCondition": 63,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 10
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 9,
+      "ashore": 159,
+      "wounded": 41,
+      "ships": 4,
+      "shipCondition": 69,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 14
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "press",
+      "counter": "hold",
+      "phase": "result",
+      "round": 9,
+      "ashore": 160,
+      "wounded": 40,
+      "ships": 4,
+      "shipCondition": 63,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 12
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "volley",
+      "phase": "result",
+      "round": 15,
+      "ashore": 127,
+      "wounded": 73,
+      "ships": 4,
+      "shipCondition": 63,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 4
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 15,
+      "ashore": 131,
+      "wounded": 69,
+      "ships": 4,
+      "shipCondition": 69,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 7
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "hold",
+      "counter": "hold",
+      "phase": "result",
+      "round": 15,
+      "ashore": 129,
+      "wounded": 71,
+      "ships": 4,
+      "shipCondition": 63,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 6
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "volley",
+      "phase": "result",
+      "round": 11,
+      "ashore": 138,
+      "wounded": 62,
+      "ships": 4,
+      "shipCondition": 63,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 1
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 10,
+      "ashore": 148,
+      "wounded": 52,
+      "ships": 4,
+      "shipCondition": 69,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 3
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "direct",
+      "stance": "cover",
+      "counter": "hold",
+      "phase": "result",
+      "round": 11,
+      "ashore": 147,
+      "wounded": 53,
+      "ships": 4,
+      "shipCondition": 63,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 3
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "volley",
+      "phase": "result",
+      "round": 11,
+      "ashore": 139,
+      "wounded": 61,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 11
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 11,
+      "ashore": 139,
+      "wounded": 61,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 11
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "press",
+      "counter": "hold",
+      "phase": "result",
+      "round": 11,
+      "ashore": 145,
+      "wounded": 55,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 13
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "volley",
+      "phase": "failed",
+      "round": 18,
+      "ashore": 108,
+      "wounded": 92,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 19
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "reserve",
+      "phase": "failed",
+      "round": 18,
+      "ashore": 108,
+      "wounded": 92,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 19
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "hold",
+      "counter": "hold",
+      "phase": "failed",
+      "round": 18,
+      "ashore": 114,
+      "wounded": 86,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 21
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "volley",
+      "phase": "result",
+      "round": 14,
+      "ashore": 124,
+      "wounded": 76,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 3
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "reserve",
+      "phase": "result",
+      "round": 14,
+      "ashore": 124,
+      "wounded": 76,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 1,
+      "wood": 2,
+      "fatigue": 3
+    },
+    {
+      "preps": [
+        "hulls",
+        "arrows"
+      ],
+      "route": "west",
+      "stance": "cover",
+      "counter": "hold",
+      "phase": "result",
+      "round": 13,
+      "ashore": 139,
+      "wounded": 61,
+      "ships": 4,
+      "shipCondition": 68,
+      "supplies": 2,
+      "arrows": 0,
+      "wood": 2,
+      "fatigue": 4
+    }
+  ]
+}

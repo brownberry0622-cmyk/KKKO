@@ -1,0 +1,5 @@
+{
+  "checks": 14,
+  "result": "PASS",
+  "scope": "image-load hold, pause/close/background, stale callbacks and separate end card"
+}

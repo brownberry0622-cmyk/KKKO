@@ -1,0 +1,185 @@
+{
+  "checks": 1121,
+  "examples": [
+    {
+      "edition": "campaign-rework",
+      "chapter": 1,
+      "id": "opening",
+      "kind": "escortbattle"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 1,
+      "id": "rescue",
+      "kind": "escortbattle"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 1,
+      "id": "siege2",
+      "kind": "defense"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 2,
+      "id": "hengjian",
+      "kind": "gate"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 2,
+      "id": "chuzhou",
+      "kind": "gate"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 2,
+      "id": "liuhe",
+      "kind": "escortbattle"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 2,
+      "id": "ravine",
+      "kind": "ambush"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 3,
+      "id": "hezhoufight",
+      "kind": "field"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 3,
+      "id": "chaohu",
+      "kind": "rescue"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 3,
+      "id": "caishi",
+      "kind": "crossing"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 3,
+      "id": "taipingfight",
+      "kind": "field"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 3,
+      "id": "setback",
+      "kind": "escortbattle"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 3,
+      "id": "watergate",
+      "kind": "naval"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 3,
+      "id": "fangshan",
+      "kind": "field"
+    },
+    {
+      "edition": "campaign-rework",
+      "chapter": 3,
+      "id": "jiqing",
+      "kind": "gate"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 1,
+      "id": "opening",
+      "kind": "escortbattle"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 1,
+      "id": "rescue",
+      "kind": "escortbattle"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 1,
+      "id": "siege2",
+      "kind": "defense"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 2,
+      "id": "hengjian",
+      "kind": "gate"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 2,
+      "id": "chuzhou",
+      "kind": "gate"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 2,
+      "id": "liuhe",
+      "kind": "escortbattle"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 2,
+      "id": "ravine",
+      "kind": "ambush"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 3,
+      "id": "hezhoufight",
+      "kind": "field"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 3,
+      "id": "chaohu",
+      "kind": "rescue"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 3,
+      "id": "caishi",
+      "kind": "crossing"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 3,
+      "id": "taipingfight",
+      "kind": "field"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 3,
+      "id": "setback",
+      "kind": "escortbattle"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 3,
+      "id": "watergate",
+      "kind": "naval"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 3,
+      "id": "fangshan",
+      "kind": "field"
+    },
+    {
+      "edition": "campaign-autochess",
+      "chapter": 3,
+      "id": "jiqing",
+      "kind": "gate"
+    }
+  ]
+}

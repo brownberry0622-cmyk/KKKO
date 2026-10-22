@@ -1,0 +1,614 @@
+[
+  {
+    "chapter": 1,
+    "id": "prep-repair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=b30a963adda58edf648fadfc7beb2fbf0efa7421dd51174b39bca78444e92721"
+  },
+  {
+    "chapter": 1,
+    "id": "prep-drill",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=b7ccef8a88b62d91815a3da0d71b4d8149e16a4a3298e32ab04cf26ef08db904"
+  },
+  {
+    "chapter": 1,
+    "id": "prep-scout",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=1694ef778686c4783852652cbccbb02425665a5f708bd6f0ba288624bc14f58a"
+  },
+  {
+    "chapter": 1,
+    "id": "return-front",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=c7ffd2c146db3838a4235953786e63718ed13f7b7966a064c9cd09e25b2f149d"
+  },
+  {
+    "chapter": 1,
+    "id": "return-side",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=801a3ffca60cdbf8e48970da3bb07909ba81ed48f594945b36e0f11f6d1a6ff0"
+  },
+  {
+    "chapter": 1,
+    "id": "return-cover",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=bc914e32b554e2d5aec06ba4773e346bae3e16c449ff3dfc1c7f6375332926ad"
+  },
+  {
+    "chapter": 1,
+    "id": "return-front-wound",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=08b016a71c4b3968ade966cd570a4406ee6fced8d397b6bee8085d8cc540b57c"
+  },
+  {
+    "chapter": 1,
+    "id": "marriage-rest",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=5463b4505cb90d746e52222fd86f8d4c34e3184778385cae376db89e4f75bcbf"
+  },
+  {
+    "chapter": 1,
+    "id": "marriage-watch",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=07d776c0ebc4c311ce4b0001c7336cbc7c2c4728d7454f0e657ef8f47a4bbcea"
+  },
+  {
+    "chapter": 1,
+    "id": "rescue-direct",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=261d49f6a87f8462dd7cbb96ac61dfced5c8658adbc9815dd942492fec39edb1"
+  },
+  {
+    "chapter": 1,
+    "id": "rescue-escort",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=fba78669899d36996e146f8a31387db5f51f1b7a51d89028d2c0363bc1f3521e"
+  },
+  {
+    "chapter": 1,
+    "id": "siege1-full",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=723bba6e0b6d761e68af8cc4c85d57eb0018b98803c9603bc03461ec9c5970cf"
+  },
+  {
+    "chapter": 1,
+    "id": "siege1-lean",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=f44ed6b709bce48ed76ab2b84467b9e9885dd1b3087a4fa6096e113b99ec1608"
+  },
+  {
+    "chapter": 1,
+    "id": "siege2-full",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=7de49b67665946c84778c44fc0e11f94990b4c37fdf6b9df292d833c6a504b6e"
+  },
+  {
+    "chapter": 1,
+    "id": "siege2-lean",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=f78b88358d7c135c000dc571c38deb267545dd1eb67d0b3fd7338af2acebeb91"
+  },
+  {
+    "chapter": 1,
+    "id": "history-bread",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=2263c22f35eb778b30b361f318c565513d3f3676c194eaec4c7c69f153c5e769"
+  },
+  {
+    "chapter": 1,
+    "id": "siege3-rotate",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=8ec138932e862c218f9502a3b477a7bd7e4ff76190ac3d521eda400d110c50f0"
+  },
+  {
+    "chapter": 1,
+    "id": "siege3-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=cf64dc8d7c638a61fd6680f2b83b0b7203ed252f06a7da62e6e485e6033c8cfe"
+  },
+  {
+    "chapter": 1,
+    "id": "salt-fast",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=c517e1ec92a43ccbea4faf9d4f07a42d6ffd945198a444b2d79bf863b8e9cc2f"
+  },
+  {
+    "chapter": 1,
+    "id": "salt-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=dde37ad633b17ee1ee1efe70f10dc8a411fcb8d59155626cea91069124399f0f"
+  },
+  {
+    "chapter": 1,
+    "id": "recruit-repair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=36d62ddc58b1eedaf4e771a664512b09091c1641a89363c684818f3d986be1b7"
+  },
+  {
+    "chapter": 1,
+    "id": "recruit-train",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=ffde53fd7569204b826f819cabe1be305d5108d0a2f6c73e2a276f2bf3b27eae"
+  },
+  {
+    "chapter": 1,
+    "id": "departure-full",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=3eb3a589bf4bf4fd20e77a41c0c86a0fc87672f79ce82542ffa25b6997108530"
+  },
+  {
+    "chapter": 1,
+    "id": "departure-light",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=59dd38d889449b02fc292039db254f7196296cab9bec19f3f939dbdfbfbc98f9"
+  },
+  {
+    "chapter": 1,
+    "id": "risk-fatigue-rest",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=51b2d7bd06b1673dc123a4a2519de75ce74a9f104af4a7bfd45bd2a9ae8f484b"
+  },
+  {
+    "chapter": 1,
+    "id": "care-fatigue-rest",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=8390838c6352fb4f6749c7eb2fd45a907455ec3d4a694ebf1623258424af1550"
+  },
+  {
+    "chapter": 1,
+    "id": "risk-fatigue-rotate",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=3d2eb7550535369e64fc13a22fab1e10868556a6e3b5f242608c916844bf67d3"
+  },
+  {
+    "chapter": 1,
+    "id": "care-fatigue-rotate",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=af51d15a1506396196c58da709bf07ea0d5f0db24d34cb898e753966f830e290"
+  },
+  {
+    "chapter": 1,
+    "id": "risk-grain-supply",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=8d2353f07fe71deb441e7bde0ed097128d1c63b3f65b39a048b2f4143903d114"
+  },
+  {
+    "chapter": 1,
+    "id": "care-grain-supply",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=cf55c3666226843c86910c66b2346702ab8aae0a02898165f80a1c9a1ad4c6e2"
+  },
+  {
+    "chapter": 1,
+    "id": "risk-grain-ration",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=ce80c31897bdfe34c47afea630905e2c4f30e2999d84faf86a3e9cd7010afe75"
+  },
+  {
+    "chapter": 1,
+    "id": "care-grain-ration",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=c0e12b635b72827eba13b9ed550066d1d11eae8761d8a782276bf2c46f599357"
+  },
+  {
+    "chapter": 1,
+    "id": "risk-equipment-repair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=bfaff3a438855664d778522b1adde16b8286dcbbea9ca76d3501a3d5528163c4"
+  },
+  {
+    "chapter": 1,
+    "id": "care-equipment-repair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=af4dd8ba0b2330654382f3c0b5fdc97f4c7600aa18b65a6910d40ad24d220899"
+  },
+  {
+    "chapter": 1,
+    "id": "risk-equipment-pair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=fe7be169d1f5a0216f6dcdf69c2bc4b737f1ffdffb192a37c5ac9baecbc42a8c"
+  },
+  {
+    "chapter": 1,
+    "id": "care-equipment-pair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=27bae0cbec5fa2de313ecdbedaaeb8c5a58747e73e1782ed2078809e965df7db"
+  },
+  {
+    "chapter": 1,
+    "id": "risk-medical-treat",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=8f8641f90e67b864aeafe83db777022f10415b0093409beae9a47252c57a303e"
+  },
+  {
+    "chapter": 1,
+    "id": "care-medical-treat",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=a8cfcd5bd094fe316c46e5f7a508e7edba4dd199408fdf11231cadb6c71f336e"
+  },
+  {
+    "chapter": 1,
+    "id": "risk-medical-carry",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=c7c9f3e93d96b1f726f252536f808d194e48d04310e51a0b986dcbf84ce79886"
+  },
+  {
+    "chapter": 1,
+    "id": "care-medical-carry",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=e724fdb24557c941f8bb766b9a95e7b723c60ec3e4c98df8ca772e36b51188b1"
+  },
+  {
+    "chapter": 2,
+    "id": "name-preface",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=ebb16c7d912ca936f9ba90b57aa92a7c14c2e2ee12130813093a53ffc2d0333b"
+  },
+  {
+    "chapter": 2,
+    "id": "return-carry",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=6c8c10f9a0736b753faa9e5842f1aabfb916cf52eb14c55161cb04788f530090"
+  },
+  {
+    "chapter": 2,
+    "id": "return-walk",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=910e806119ef4ffeadb710cc27ccf79b06d7f9ee7785f7c79144389f5b09f040"
+  },
+  {
+    "chapter": 2,
+    "id": "envoy-secure",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=080d7f4cc47bf8ae589d3fc74eac06e35afb6776a95c149049b523ba9716872b"
+  },
+  {
+    "chapter": 2,
+    "id": "envoy-light",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=d3310625026d4b599763e34087dc021d32e598d98cbf89eedb535d5fd9dbf2cd"
+  },
+  {
+    "chapter": 2,
+    "id": "stockade-cordon",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=de598b94f56a0d0a3c7185fb078313d23ffbbc4085d2645d08b1704779187a5e"
+  },
+  {
+    "chapter": 2,
+    "id": "stockade-close",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=0b5c502430a17d286077cb2feadf27156a9a34a3f7b652133c0902361ee71f31"
+  },
+  {
+    "chapter": 2,
+    "id": "hengjian-flank",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=a8cc1d7c524a2d90890592213cdf8f7428f8d60a8fd0f21f36422e9171591162"
+  },
+  {
+    "chapter": 2,
+    "id": "hengjian-gate",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=c6f3b98a473caa07f2838d2270d15c4b1b573fdeaafd2973b27b4d5a67cf90e3"
+  },
+  {
+    "chapter": 2,
+    "id": "history-miao",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=5057e5f823ce97ff29e15b0f124a4d82d7e1e8d1fe28df3ff9870b401e40fcff"
+  },
+  {
+    "chapter": 2,
+    "id": "muster-repair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=1553ac4955388a7e7d23b0d3ed21c20279a5aef488058c0c50fd8a41e5a769fd"
+  },
+  {
+    "chapter": 2,
+    "id": "muster-drill",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=81746ff3187c9033fc945819f9ff56d8e136013129c1150d05a1cae8ffd68710"
+  },
+  {
+    "chapter": 2,
+    "id": "li-stores",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=59af0a297b2d27a09c096f145d716c15195af35ba91d4c3513f27648d3876332"
+  },
+  {
+    "chapter": 2,
+    "id": "li-mediate",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=d0f5ec52b75d71bc6d9bea857786cf250e3f35f93aca77d612238656130bbd7a"
+  },
+  {
+    "chapter": 2,
+    "id": "chuzhou-screen",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=6b52519b9dec248d6fd5c7de9f17efe64e8a57da4f33a48f73afa2bed246efd5"
+  },
+  {
+    "chapter": 2,
+    "id": "chuzhou-rush",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=3bd058b666b38d717e8bcc0b06e302071e58a41c80ab0a2709bdf0d4f61d926f"
+  },
+  {
+    "chapter": 2,
+    "id": "history-gather",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=8997b81d08a5ce430ae9e040a56ebf04f5c03f8e5c0377297f78e5c480079107"
+  },
+  {
+    "chapter": 2,
+    "id": "guo-ledger",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=5e02d7cd3642f9b3daa01ae1e0b092ba05e97ae045a931ee0390a6384ddd8271"
+  },
+  {
+    "chapter": 2,
+    "id": "guo-family",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=f326c80454e1001e9384142ed46be7e6611ba2a541907015a99bb3edf7618c29"
+  },
+  {
+    "chapter": 2,
+    "id": "liuhe-repair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=b22f3c4eab188d3f385bcaca2d3840d319f601a45787423d44a36783995e40ff"
+  },
+  {
+    "chapter": 2,
+    "id": "liuhe-screen",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=64c5a9de4aeffcec2b7c323477d3b4e8c990402f6f365065dc50a5406b1198fb"
+  },
+  {
+    "chapter": 2,
+    "id": "ravine-flank",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=3d2a0f3cf24ab9769477843823ac5e5043c32df1ad2c61841e3a941c02a3eda6"
+  },
+  {
+    "chapter": 2,
+    "id": "ravine-hold",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=ee746c5daa4f856ff542f7e3c4d1adc0b055d5ff6f2f783baa52f55623fb0b52"
+  },
+  {
+    "chapter": 2,
+    "id": "care-fatigue-rest",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=424d9ed548414a70306fc428492f2291b022e9e9db2bf45b06b6dfafe17c2922"
+  },
+  {
+    "chapter": 2,
+    "id": "care-fatigue-rotate",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=7f3b9bfc374dd9e202f70602ef44b30d429099c1500bfe862297ecb3e00dd4a1"
+  },
+  {
+    "chapter": 2,
+    "id": "care-grain-supply",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=d6ed30bc9b7b598d0895f6650981f7a4c3eca6d8a9add5436884c0545af4f687"
+  },
+  {
+    "chapter": 2,
+    "id": "care-grain-ration",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=5d790aa76defd47769edf8dac3e7c79dbceac068d8ab826d83d153f256b07dad"
+  },
+  {
+    "chapter": 2,
+    "id": "care-equipment-repair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=685da427e1699ef747b4507b0365b0012ca552c5462e2e3a281fa5f524e0363b"
+  },
+  {
+    "chapter": 2,
+    "id": "care-equipment-pair",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=73db5f7962c91352c63a737fb2a7f6c83302ea9e3776bd19b6853ab71f65298e"
+  },
+  {
+    "chapter": 2,
+    "id": "care-medical-treat",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=59a8cbacbb74320cab2a198d02e0da2193df3bffd1f37bf80ba779a9b5b485cc"
+  },
+  {
+    "chapter": 2,
+    "id": "care-medical-carry",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=6a746e6ade11f56f2a508209372d02520ff9f2d0c795b200656d791997d28fbf"
+  },
+  {
+    "chapter": 2,
+    "id": "cohesion-rest",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=9bbaa4a40bf7e019a64fd855094833a7142e9be3a9478205080b0822ea7665fc"
+  },
+  {
+    "chapter": 2,
+    "id": "cohesion-rotate",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=f2ec37773f395c75aabb536d26615570dcc343274ae444abb03797234c30d3db"
+  },
+  {
+    "chapter": 3,
+    "id": "hezhou-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=b4702159be6fcff23051c9063e638198c1e052b63c0eec4988b4bcea3e78a560"
+  },
+  {
+    "chapter": 3,
+    "id": "hezhou-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=45d9cc7d8a644fa7d0bfa76854f511cfaa18c367316c95ee7f137d8042ed7d38"
+  },
+  {
+    "chapter": 3,
+    "id": "hostage-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=477929190cb78158a7a5f1c841ba4602608f1a1bd4062873ab48139605196569"
+  },
+  {
+    "chapter": 3,
+    "id": "hostage-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=1486715ef9b27f0430f76ae6a1da54ebd38d29f5cf74920a2e10dddda70dac6c"
+  },
+  {
+    "chapter": 3,
+    "id": "hezhoufight-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=c75751e138bb4b231aed3685fa6d113ae06e2de94c13d6e258341ac640313cf5"
+  },
+  {
+    "chapter": 3,
+    "id": "hezhoufight-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=d8733589b4ba10f8786508502fcdf1fc3fb72917c339a42d47ac0caa20bbf665"
+  },
+  {
+    "chapter": 3,
+    "id": "succession-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=ebc4140211ee5d8193a37e2d1b673c00ce00d5ee7bf2a1fc086ded3d47907afe"
+  },
+  {
+    "chapter": 3,
+    "id": "succession-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=b4a1df833ab9ced30e6c55adf3549b8791e7d3114e93baab96b92334491d1960"
+  },
+  {
+    "chapter": 3,
+    "id": "chang-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=d6911a29c581d2c56ac5f4fd87845818845046b66743b30d6bd516dc023be4c6"
+  },
+  {
+    "chapter": 3,
+    "id": "chang-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=bf480982f5c692b3ea2371dc93e32b7f8f208ddbfd2ad99d0cd3cd94b339bcaa"
+  },
+  {
+    "chapter": 3,
+    "id": "chaohu-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=bcd2438082cbb655362b831ecaa0b797d7047f20753f6347f683ac0ef6dfdc11"
+  },
+  {
+    "chapter": 3,
+    "id": "chaohu-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=4cd86f59d1d2cacbc5ade19f5fe3096b4a1bc90518cd03280f3f783de7fa7ec8"
+  },
+  {
+    "chapter": 3,
+    "id": "caishi-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=627bb666ac7e60a026346f1a8bf5a31e43caf297382536c0b0db48cb63106463"
+  },
+  {
+    "chapter": 3,
+    "id": "caishi-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=6f5e0f6f42cf45930cd5a085fec41309a51db4741cf61d17604d917c360773ce"
+  },
+  {
+    "chapter": 3,
+    "id": "taiping-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=11eaeb7613fbd7010051ffae7a2dfdb397e6e0b79560be77d98c98d09dfd185a"
+  },
+  {
+    "chapter": 3,
+    "id": "taiping-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=5b186f0c476fc847d3a1014c6f53230f02215f76a3382c333acdf916146d39ec"
+  },
+  {
+    "chapter": 3,
+    "id": "history-families",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=69283a69ef528589625e15516aa34926e589842a4213f41f57ee49813a9b2123"
+  },
+  {
+    "chapter": 3,
+    "id": "taipingfight-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=d2d196222539390275a9e0274068daa65a9b1c6682ca5cef08ff4d082f0093a2"
+  },
+  {
+    "chapter": 3,
+    "id": "taipingfight-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=a4c86dacfd80ec9e126a5b4976486ffacfe511f8fec8d0eaaf6f79e0c7421185"
+  },
+  {
+    "chapter": 3,
+    "id": "setback-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=9906cf515ce836f2c87a920b3ff618651882b91b0835abe5faf280bcc505f5c5"
+  },
+  {
+    "chapter": 3,
+    "id": "setback-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=86f7c51acf1e6309e868dad1ca1062c51ac60fe19a29f791eb04a47436eb9922"
+  },
+  {
+    "chapter": 3,
+    "id": "history-release",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=c9b1dff6b1b609247a6eeff7f9a1b90f70a1fcc2c677fca3de0af4c5c6d49aaf"
+  },
+  {
+    "chapter": 3,
+    "id": "watergate-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=d9efa16678915bc9d672b6595c452449951f2957160f84dafbf7c0a35e81c50b"
+  },
+  {
+    "chapter": 3,
+    "id": "watergate-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=130c044df7e71891634613dde4733e6d875d21f218921ccfbb41cd2993a7644f"
+  },
+  {
+    "chapter": 3,
+    "id": "fangshan-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=34a0626a8c42586becf1823b9c5c983f44c983d73364e35e89af5c93f0c67173"
+  },
+  {
+    "chapter": 3,
+    "id": "fangshan-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=b15416db3f58de7e7994e2f8bb9fa2ad80a84c43de4af2270fdbbb5f5ca27956"
+  },
+  {
+    "chapter": 3,
+    "id": "jiqing-steady",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=6390be85eb600b41c838f98f5db0086d9eac43d6cc17ff08a2838b612c2d5c30"
+  },
+  {
+    "chapter": 3,
+    "id": "jiqing-press",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=38565f16dde8136c994a2aed3010c220ae2dc51f76c64d5354a15cd0773d7337"
+  },
+  {
+    "chapter": 3,
+    "id": "history-yingtian",
+    "audioPacketsUnchanged": true,
+    "audioHash": "SHA256=c663714f29f421c47a2f2de37d084339f7e726f6c9ca71d41cf1a80df859dd37"
+  }
+]

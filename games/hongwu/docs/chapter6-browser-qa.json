@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "origin": "（历史本机预览地址）",
+  "method": "CUA browser UI, isolated six-qa saves",
+  "formalSaveModified": false,
+  "cases": [
+    {"case":"1364 strategic map, current portrait, two Wu states and 24-node chapter entry", "result":"PASS"},
+    {"case":"High Crown Mountain deployment, start, speed switch, pause and resume, victory", "result":"PASS"},
+    {"case":"High Crown Mountain result PV full-image cuts, subtitles, pause/reload retaining frame 3 and separate final title card", "result":"PASS"},
+    {"case":"Changxing four defenders plus two delayed relief units, arrival and early pincer victory", "result":"PASS"},
+    {"case":"664 x 507 strategic map and record panel; temporary viewport override reset", "result":"PASS"},
+    {"case":"Fifth-chapter complete-save import: grain 1200, wounded 61, equipment 69, 16 initial cities", "result":"PASS"},
+    {"case":"Family courtyard distinct buildings and book desk, child scale, click-to-walk, near interaction with Song Lian and separate history evidence", "result":"PASS"},
+    {"case":"Completed QA checkpoint shows 24 reports and Chapter 7 export; 29 controlled cities excludes Ganzhou, Wenzhou, Baoqing and Yongzhou", "result":"PASS"},
+    {"case":"Six-card root chapter directory and story/review links", "result":"PASS"},
+    {"case":"Memorial scene distinct temple, memorial tablets and register; no generic camp replacement", "result":"PASS"},
+    {"case":"Ganzhou land siege briefing and board: walls, land formations and escape-limit objective, no surrender reward", "result":"PASS"},
+    {"case":"Zhan Shu uses the pre-renaming name in the walkable scene before the recorded naming event", "result":"PASS"},
+    {"case":"When Chang Yuchun commands at Ganzhou, Zhu Yuanzhang keeps the court portrait and label on the strategic map", "result":"PASS"},
+    {"case":"Final gallery lists 168 events / 1001 paintings; chapter 6 filter lists 24 / 148; all 8 family-event paintings loaded", "result":"PASS"},
+    {"case":"Final family PV: seven whole-image shots, subtitles, pause and manual next; title card appears only after shot 7", "result":"PASS"},
+    {"case":"Final root directory shows all six chapters and normal saves remain untouched", "result":"PASS"}
+  ],
+  "screenshots": [
+    "docs/第六章_高冠山PV验收.webp",
+    "docs/第六章_赣州陆上围城验收.webp",
+    "docs/第六章_家书PV终稿.webp"
+  ],
+  "observedConsoleErrors": [],
+  "limits": [
+    "Not an exhaustive human playthrough of every possible choice combination.",
+    "Four deterministic whole-chapter model runs supplement the browser checks.",
+    "Professional music/Foley listening review and final 3D character production are not claimed."
+  ]
+}

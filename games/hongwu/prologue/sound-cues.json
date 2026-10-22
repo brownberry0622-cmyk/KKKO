@@ -1,0 +1,283 @@
+{
+  "duration": 90,
+  "sampleRate": 48000,
+  "note": "临时合成音效；无配音、无音乐；尾卡静音。未进行正式听审。",
+  "cues": [
+    {
+      "start": 0,
+      "end": 19.5,
+      "name": "寺内安静底声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 0.35,
+      "end": 1.0,
+      "name": "展开信纸",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 4.2,
+      "end": 5.2,
+      "name": "折拢信纸",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 7.1,
+      "end": 11.7,
+      "name": "信纸燃烧细响：临时合成",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 12.05,
+      "end": 12.6,
+      "name": "木门或椅木轻响：合成示意",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 16.7,
+      "end": 17.6,
+      "name": "收起行装，粗布摩擦",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 19.5,
+      "end": 39.0,
+      "name": "低风声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 19.5,
+      "end": 39.0,
+      "name": "远处空气声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 19.65,
+      "end": 19.89,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 20.4,
+      "end": 20.64,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 21.15,
+      "end": 21.39,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 22.7,
+      "end": 22.94,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 23.5,
+      "end": 23.74,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 24.25,
+      "end": 24.49,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 26.05,
+      "end": 26.55,
+      "name": "木杆或桌面轻响",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 29.05,
+      "end": 29.55,
+      "name": "木杆或桌面轻响",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 29.2,
+      "end": 29.85,
+      "name": "拘执时衣料轻擦",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 29.2,
+      "end": 29.44,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 32.55,
+      "end": 33.6,
+      "name": "上绳拘执：麻绳与衣料",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 35.15,
+      "end": 35.6,
+      "name": "粗布轻擦",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 39,
+      "end": 45.5,
+      "name": "报告室内底声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 39.05,
+      "end": 39.29,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 39.2,
+      "end": 39.65,
+      "name": "粗布轻擦",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 42.55,
+      "end": 43.05,
+      "name": "木杆或桌面轻响",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 45.5,
+      "end": 49.0,
+      "name": "低风声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 45.5,
+      "end": 49.0,
+      "name": "远处空气声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 45.6,
+      "end": 45.84,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 46.35,
+      "end": 46.59,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 47.1,
+      "end": 47.34,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 47.85,
+      "end": 48.09,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 49,
+      "end": 78.5,
+      "name": "郭子兴问话室内底声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 49.1,
+      "end": 49.6,
+      "name": "粗布轻擦",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 53.1,
+      "end": 53.6,
+      "name": "木杆或桌面轻响",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 56.55,
+      "end": 57.85,
+      "name": "麻绳解开滑落",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 57.9,
+      "end": 58.45,
+      "name": "解缚后衣袖微响",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 59.6,
+      "end": 60.1,
+      "name": "木门或椅木轻响：合成示意",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 66.6,
+      "end": 67.0,
+      "name": "粗布轻擦",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 75.1,
+      "end": 75.75,
+      "name": "拱手致谢时衣料轻擦",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 78.5,
+      "end": 86.0,
+      "name": "低风声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 78.5,
+      "end": 86.0,
+      "name": "远处空气声",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 78.55,
+      "end": 79.1,
+      "name": "木门或椅木轻响：合成示意",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 79.0,
+      "end": 79.24,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 79.75,
+      "end": 79.99,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 80.5,
+      "end": 80.74,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 81.25,
+      "end": 81.49,
+      "name": "画外夯土地面脚步",
+      "source": "local procedural temporary SFX"
+    },
+    {
+      "start": 82,
+      "end": 86.0,
+      "name": "军营旗帐布面轻响",
+      "source": "local procedural temporary SFX"
+    }
+  ]
+}

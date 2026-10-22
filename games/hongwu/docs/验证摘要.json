@@ -1,0 +1,475 @@
+{
+  "status": "ready",
+  "updated": "2026-10-21T13:19:04.823759",
+  "chapters": 8,
+  "years": "1352–1368",
+  "taskFilms": 472,
+  "taskSceneOriginals": 1421,
+  "finaleOriginals": 18,
+  "verifiedSceneOriginals": 1439,
+  "crossEventDuplicateOriginals": 0,
+  "missingAssetReferences": 0,
+  "modelChecks": 8336,
+  "chapterModelRuns": [
+    {
+      "chapter": 7,
+      "choice": "steady",
+      "steps": 1718,
+      "battles": [
+        {
+          "id": "C7-03",
+          "kind": "pincer",
+          "ticks": 168,
+          "damage": 488
+        },
+        {
+          "id": "C7-X01",
+          "kind": "hill",
+          "ticks": 115,
+          "damage": 298
+        },
+        {
+          "id": "C7-04",
+          "kind": "escortbattle",
+          "ticks": 111,
+          "damage": 290
+        },
+        {
+          "id": "C7-05A",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 251
+        },
+        {
+          "id": "C7-05C",
+          "kind": "naval",
+          "ticks": 112,
+          "damage": 290
+        },
+        {
+          "id": "C7-05D",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 251
+        },
+        {
+          "id": "C7-05E",
+          "kind": "naval",
+          "ticks": 112,
+          "damage": 290
+        },
+        {
+          "id": "C7-07B",
+          "kind": "field",
+          "ticks": 112,
+          "damage": 298
+        },
+        {
+          "id": "C7-07D",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 251
+        },
+        {
+          "id": "C7-09",
+          "kind": "siege",
+          "ticks": 125,
+          "damage": 356
+        },
+        {
+          "id": "C7-11",
+          "kind": "siege",
+          "ticks": 125,
+          "damage": 356
+        }
+      ],
+      "supports": 1,
+      "fund": 83,
+      "careSupplies": 59
+    },
+    {
+      "chapter": 7,
+      "choice": "urgent",
+      "steps": 1729,
+      "battles": [
+        {
+          "id": "C7-03",
+          "kind": "pincer",
+          "ticks": 165,
+          "damage": 472
+        },
+        {
+          "id": "C7-X01",
+          "kind": "hill",
+          "ticks": 112,
+          "damage": 279
+        },
+        {
+          "id": "C7-04",
+          "kind": "escortbattle",
+          "ticks": 111,
+          "damage": 305
+        },
+        {
+          "id": "C7-05A",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 254
+        },
+        {
+          "id": "C7-05C",
+          "kind": "naval",
+          "ticks": 112,
+          "damage": 300
+        },
+        {
+          "id": "C7-05D",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 254
+        },
+        {
+          "id": "C7-05E",
+          "kind": "naval",
+          "ticks": 112,
+          "damage": 305
+        },
+        {
+          "id": "C7-07B",
+          "kind": "field",
+          "ticks": 112,
+          "damage": 308
+        },
+        {
+          "id": "C7-07D",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 254
+        },
+        {
+          "id": "C7-09",
+          "kind": "siege",
+          "ticks": 130,
+          "damage": 379
+        },
+        {
+          "id": "C7-11",
+          "kind": "siege",
+          "ticks": 130,
+          "damage": 379
+        }
+      ],
+      "supports": 8,
+      "fund": 83,
+      "careSupplies": 52
+    },
+    {
+      "chapter": 8,
+      "choice": "steady",
+      "steps": 1694,
+      "battles": [
+        {
+          "id": "C8-01A",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 251
+        },
+        {
+          "id": "C8-01B",
+          "kind": "naval",
+          "ticks": 112,
+          "damage": 290
+        },
+        {
+          "id": "C8-03A",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 251
+        },
+        {
+          "id": "C8-03B",
+          "kind": "siege",
+          "ticks": 125,
+          "damage": 356
+        },
+        {
+          "id": "C8-03C",
+          "kind": "hill",
+          "ticks": 115,
+          "damage": 298
+        },
+        {
+          "id": "C8-R01",
+          "kind": "hill",
+          "ticks": 115,
+          "damage": 298
+        },
+        {
+          "id": "C8-05",
+          "kind": "field",
+          "ticks": 112,
+          "damage": 298
+        },
+        {
+          "id": "C8-07A",
+          "kind": "field",
+          "ticks": 112,
+          "damage": 298
+        },
+        {
+          "id": "C8-06B",
+          "kind": "siege",
+          "ticks": 130,
+          "damage": 359
+        },
+        {
+          "id": "C8-08",
+          "kind": "field",
+          "ticks": 112,
+          "damage": 298
+        },
+        {
+          "id": "C8-11B",
+          "kind": "field",
+          "ticks": 143,
+          "damage": 338
+        }
+      ],
+      "supports": 2,
+      "fund": 81,
+      "careSupplies": 78
+    },
+    {
+      "chapter": 8,
+      "choice": "urgent",
+      "steps": 1699,
+      "battles": [
+        {
+          "id": "C8-01A",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 254
+        },
+        {
+          "id": "C8-01B",
+          "kind": "naval",
+          "ticks": 112,
+          "damage": 300
+        },
+        {
+          "id": "C8-03A",
+          "kind": "gate",
+          "ticks": 112,
+          "damage": 254
+        },
+        {
+          "id": "C8-03B",
+          "kind": "siege",
+          "ticks": 130,
+          "damage": 379
+        },
+        {
+          "id": "C8-03C",
+          "kind": "hill",
+          "ticks": 112,
+          "damage": 281
+        },
+        {
+          "id": "C8-R01",
+          "kind": "hill",
+          "ticks": 112,
+          "damage": 279
+        },
+        {
+          "id": "C8-05",
+          "kind": "field",
+          "ticks": 112,
+          "damage": 308
+        },
+        {
+          "id": "C8-07A",
+          "kind": "field",
+          "ticks": 112,
+          "damage": 308
+        },
+        {
+          "id": "C8-06B",
+          "kind": "siege",
+          "ticks": 130,
+          "damage": 379
+        },
+        {
+          "id": "C8-08",
+          "kind": "field",
+          "ticks": 112,
+          "damage": 308
+        },
+        {
+          "id": "C8-11B",
+          "kind": "field",
+          "ticks": 143,
+          "damage": 322
+        }
+      ],
+      "supports": 8,
+      "fund": 48,
+      "careSupplies": 72
+    }
+  ],
+  "checks": {
+    "handoff-report.json": {
+      "status": "PASS",
+      "rows": [
+        {
+          "from": 1,
+          "to": 2,
+          "method": "importFirst",
+          "phase": "story"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "method": "importSecond",
+          "phase": "brief"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "method": "importThird",
+          "phase": "brief"
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "method": "importFourth",
+          "phase": "brief"
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "method": "importFifth",
+          "phase": "brief"
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "method": "importPrevious",
+          "phase": "brief"
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "method": "importPrevious",
+          "phase": "brief"
+        }
+      ]
+    },
+    "backup-report.json": {
+      "rows": [
+        {
+          "chapter": 1,
+          "ok": true,
+          "phase": "opening"
+        },
+        {
+          "chapter": 2,
+          "ok": true,
+          "phase": "story"
+        },
+        {
+          "chapter": 3,
+          "ok": true,
+          "phase": "brief"
+        },
+        {
+          "chapter": 4,
+          "ok": true,
+          "phase": "brief"
+        },
+        {
+          "chapter": 5,
+          "ok": true,
+          "phase": "brief"
+        },
+        {
+          "chapter": 6,
+          "ok": true,
+          "phase": "brief"
+        },
+        {
+          "chapter": 7,
+          "ok": true,
+          "phase": "brief"
+        },
+        {
+          "chapter": 8,
+          "ok": true,
+          "phase": "brief"
+        }
+      ],
+      "checks": [
+        "八章运行时校验器可在恢复线程运行",
+        "恢复前只预览且未写记录",
+        "确认后逐章恢复成功",
+        "序幕与终章观看进度一并恢复",
+        "损坏记录被拒且原记录保留"
+      ],
+      "errors": []
+    },
+    "ui-flow-report.json": {
+      "checks": [
+        "C7主线/史料/选择/现场交接/PV暂停/刷新恢复",
+        "登极结算与皇帝肖像切换",
+        "第三人称场景进入/移动/回图",
+        "664像素地图无横溢",
+        "18镜终章完整播放且独立审阅不改正式记录",
+        "90秒序幕真实播放结束/离页后完成状态保留"
+      ],
+      "errors": [],
+      "bad": []
+    },
+    "interaction-report.json": {
+      "checks": [
+        {
+          "name": "第三人称实际移动与抵达交互",
+          "before": "位置 0.0，6.0",
+          "after": "位置 2.6，6.0"
+        },
+        {
+          "name": "缩放后旧地图标记保持隐藏"
+        },
+        {
+          "name": "新城两队骑军、布阵、开战、暂停、胜利收队及PV"
+        }
+      ],
+      "errors": [],
+      "bad": []
+    },
+    "night-raid-report.json": {
+      "checks": [
+        "夜色营垒与六队精骑显示",
+        "衔枚出发且敌营警觉转换",
+        "暂停冻结演算",
+        "击退敌军并稳住接应通路方可获胜"
+      ],
+      "ticks": 143,
+      "damage": 338,
+      "errors": []
+    },
+    "ending-report.json": {
+      "checks": [
+        "18镜正常加载",
+        "尾题保留五秒后完成",
+        "QA观看不改正式记录"
+      ],
+      "errors": [],
+      "bad": []
+    }
+  },
+  "limits": [
+    "浏览器单机版本，第三人称场景和棋盘人物为简化模型。",
+    "独立水墨场景使用静帧分镜；暂无配音。",
+    "未将服饰、对白、棋盘、兵额和操作数值宣称为历史实测资料。"
+  ],
+  "cloudflareUploaded": false
+}

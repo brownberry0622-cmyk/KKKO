@@ -1,0 +1,19 @@
+{
+  "edition": "v0.3 前五章",
+  "date": "2026-10-15",
+  "battleNodesByChapter": [
+    3,
+    4,
+    8,
+    15,
+    23
+  ],
+  "totalBattleNodes": 53,
+  "chapter5Nodes": 54,
+  "chapter5Films": 108,
+  "newArt": 24,
+  "campaignAssertions": 7159,
+  "chapter5Checks": 8858,
+  "combatChecks": 10871,
+  "migrationChecks": 1121
+}

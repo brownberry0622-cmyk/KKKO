@@ -1,0 +1,20 @@
+{
+  "films": 340,
+  "nodes": 168,
+  "uniqueArt": 1001,
+  "chapters": {
+    "1": 40,
+    "2": 33,
+    "3": 29,
+    "4": 82,
+    "5": 108,
+    "6": 48
+  },
+  "chapter6": {
+    "nodes": 24,
+    "battles": 11,
+    "films": 48,
+    "sceneArt": 148
+  },
+  "errors": []
+}

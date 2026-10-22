@@ -1,0 +1,301 @@
+{
+  "checks": 8870,
+  "runs": [
+    {
+      "choice": "steady",
+      "phase": "complete",
+      "nodes": 54,
+      "maintenance": 5,
+      "projectFund": 45,
+      "careSupplies": 35,
+      "battles": [
+        {
+          "id": "C5-02A",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 290
+        },
+        {
+          "id": "C5-02B",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 251
+        },
+        {
+          "id": "C5-X02",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C5-F02",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C5-05C",
+          "kind": "escortbattle",
+          "ticks": 111,
+          "loss": 290
+        },
+        {
+          "id": "C5-06A",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 251
+        },
+        {
+          "id": "C5-06B",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 251
+        },
+        {
+          "id": "C5-X03",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 251
+        },
+        {
+          "id": "C5-09",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C5-X05",
+          "kind": "defense",
+          "ticks": 240,
+          "loss": 490
+        },
+        {
+          "id": "C5-10B",
+          "kind": "defense",
+          "ticks": 240,
+          "loss": 490
+        },
+        {
+          "id": "C5-10C",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 251
+        },
+        {
+          "id": "C5-R11A",
+          "kind": "escortbattle",
+          "ticks": 111,
+          "loss": 290
+        },
+        {
+          "id": "C5-10D",
+          "kind": "defense",
+          "ticks": 240,
+          "loss": 490
+        },
+        {
+          "id": "C5-13",
+          "kind": "rescue",
+          "ticks": 111,
+          "loss": 290
+        },
+        {
+          "id": "C5-14A",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 290
+        },
+        {
+          "id": "C5-14B",
+          "kind": "fire",
+          "ticks": 112,
+          "loss": 362
+        },
+        {
+          "id": "C5-14C",
+          "kind": "breakthrough",
+          "ticks": 112,
+          "loss": 290
+        },
+        {
+          "id": "C5-X08",
+          "kind": "blockade",
+          "ticks": 125,
+          "loss": 346
+        },
+        {
+          "id": "C5-X09",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 290
+        },
+        {
+          "id": "C5-15",
+          "kind": "blockade",
+          "ticks": 125,
+          "loss": 346
+        },
+        {
+          "id": "C5-X11",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 298
+        },
+        {
+          "id": "C5-16B",
+          "kind": "defense",
+          "ticks": 240,
+          "loss": 490
+        }
+      ]
+    },
+    {
+      "choice": "urgent",
+      "phase": "complete",
+      "nodes": 54,
+      "maintenance": 14,
+      "projectFund": 72,
+      "careSupplies": 26,
+      "battles": [
+        {
+          "id": "C5-02A",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 307
+        },
+        {
+          "id": "C5-02B",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 262
+        },
+        {
+          "id": "C5-X02",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 310
+        },
+        {
+          "id": "C5-F02",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 309
+        },
+        {
+          "id": "C5-05C",
+          "kind": "escortbattle",
+          "ticks": 111,
+          "loss": 307
+        },
+        {
+          "id": "C5-06A",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 262
+        },
+        {
+          "id": "C5-06B",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 262
+        },
+        {
+          "id": "C5-X03",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 262
+        },
+        {
+          "id": "C5-09",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 310
+        },
+        {
+          "id": "C5-X05",
+          "kind": "defense",
+          "ticks": 240,
+          "loss": 439
+        },
+        {
+          "id": "C5-10B",
+          "kind": "defense",
+          "ticks": 240,
+          "loss": 442
+        },
+        {
+          "id": "C5-10C",
+          "kind": "gate",
+          "ticks": 112,
+          "loss": 262
+        },
+        {
+          "id": "C5-R11A",
+          "kind": "escortbattle",
+          "ticks": 111,
+          "loss": 307
+        },
+        {
+          "id": "C5-10D",
+          "kind": "defense",
+          "ticks": 240,
+          "loss": 427
+        },
+        {
+          "id": "C5-13",
+          "kind": "rescue",
+          "ticks": 111,
+          "loss": 307
+        },
+        {
+          "id": "C5-14A",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 307
+        },
+        {
+          "id": "C5-14B",
+          "kind": "fire",
+          "ticks": 112,
+          "loss": 353
+        },
+        {
+          "id": "C5-14C",
+          "kind": "breakthrough",
+          "ticks": 112,
+          "loss": 307
+        },
+        {
+          "id": "C5-X08",
+          "kind": "blockade",
+          "ticks": 130,
+          "loss": 379
+        },
+        {
+          "id": "C5-X09",
+          "kind": "naval",
+          "ticks": 112,
+          "loss": 307
+        },
+        {
+          "id": "C5-15",
+          "kind": "blockade",
+          "ticks": 130,
+          "loss": 379
+        },
+        {
+          "id": "C5-X11",
+          "kind": "field",
+          "ticks": 112,
+          "loss": 310
+        },
+        {
+          "id": "C5-16B",
+          "kind": "defense",
+          "ticks": 240,
+          "loss": 442
+        }
+      ]
+    }
+  ]
+}

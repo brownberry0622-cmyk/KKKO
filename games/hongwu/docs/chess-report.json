@@ -1,0 +1,417 @@
+{
+  "checks": 10871,
+  "scenarios": 25,
+  "wins": 23,
+  "failures": 2,
+  "report": [
+    {
+      "id": "hengjian",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 115,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 53,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "hengjian",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 115,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 53,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "hengjian",
+      "fatigue": 65,
+      "formation": "screen",
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 5,
+        "wear": 4,
+        "integrity": 57,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "hengjian",
+      "fatigue": 20,
+      "formation": "wedge",
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 5,
+        "wear": 4,
+        "integrity": 59,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "ravine",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 129,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 4,
+        "wear": 3,
+        "integrity": 70,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "ravine",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 129,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 4,
+        "wear": 3,
+        "integrity": 70,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "ravine",
+      "fatigue": 65,
+      "formation": "screen",
+      "hold": false,
+      "status": "won",
+      "ticks": 134,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 49,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "ravine",
+      "fatigue": 20,
+      "formation": "wedge",
+      "hold": false,
+      "status": "won",
+      "ticks": 134,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 52,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "hezhoufight",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 5,
+        "integrity": 52,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "hezhoufight",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 5,
+        "integrity": 52,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "hezhoufight",
+      "fatigue": 65,
+      "formation": "screen",
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 49,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "hezhoufight",
+      "fatigue": 20,
+      "formation": "wedge",
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 52,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "watergate",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 53,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "watergate",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 53,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "watergate",
+      "fatigue": 65,
+      "formation": "screen",
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 49,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "watergate",
+      "fatigue": 20,
+      "formation": "wedge",
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 52,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "caishi",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 130,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 10,
+        "wear": 7,
+        "integrity": 22,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "caishi",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 130,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 10,
+        "wear": 7,
+        "integrity": 22,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "caishi",
+      "fatigue": 65,
+      "formation": "screen",
+      "hold": false,
+      "status": "failed",
+      "ticks": 175,
+      "receipt": null
+    },
+    {
+      "id": "caishi",
+      "fatigue": 20,
+      "formation": "wedge",
+      "hold": false,
+      "status": "won",
+      "ticks": 112,
+      "receipt": {
+        "rounds": 2,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 7,
+        "wear": 5,
+        "integrity": 44,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "C4-16",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 123,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 57,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "C4-16",
+      "fatigue": 0,
+      "formation": null,
+      "hold": false,
+      "status": "won",
+      "ticks": 123,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 57,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "C4-16",
+      "fatigue": 65,
+      "formation": "screen",
+      "hold": false,
+      "status": "won",
+      "ticks": 130,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 52,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "C4-16",
+      "fatigue": 20,
+      "formation": "wedge",
+      "hold": false,
+      "status": "won",
+      "ticks": 129,
+      "receipt": {
+        "rounds": 3,
+        "extraMinutes": 0,
+        "fatigue": 2,
+        "wounded": 6,
+        "wear": 4,
+        "integrity": 57,
+        "projectSpent": 0
+      }
+    },
+    {
+      "id": "caishi",
+      "fatigue": 0,
+      "formation": null,
+      "hold": true,
+      "status": "failed",
+      "ticks": 116,
+      "receipt": null
+    }
+  ]
+}

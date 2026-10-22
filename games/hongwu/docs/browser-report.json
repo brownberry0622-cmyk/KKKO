@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-15",
+  "origin": "（历史本机预览地址）",
+  "saveScope": "QA only; normal saves untouched",
+  "viewports": [
+    "1280x720",
+    "664x507"
+  ],
+  "completed": [
+    "Chapter5 Hongdu defense won by relief progress, with surviving enemies",
+    "Paused battle reload preserves 23-second progress and unit HP",
+    "Five-frame Hongdu PV, separate endcard, result receipt and equipment repair",
+    "Poyang fire ordered at20 seconds, consumed one fireboat, won and entered PV",
+    "Updated Zhu portrait shown on strategic map and full portrait detail",
+    "Hongdu third-person perspective is Zhu Wenzheng; walked to Deng Yu and opened his portrait/evidence",
+    "Narrow PV layout; no voiceover",
+    "Latest Chapter5 console error list empty",
+    "Chapter1 new escort battle won in narrow viewport and continued into existing result MP4; current name Zhu Chongba and red-turban portrait retained",
+    "Final portrait review page loaded, temporary viewport reset"
+  ],
+  "remainingLimits": [
+    "Not every branching route manually played",
+    "Human audio-mix and all-battle balance review pending",
+    "Character models and historical-map geometry remain prototype representations"
+  ]
+}

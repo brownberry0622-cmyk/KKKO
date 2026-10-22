@@ -1,0 +1,224 @@
+[
+  {
+    "path": "assets/portraits/zhu.webp",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\chapter3\\zhu-armor.webp",
+    "sha256": "3b4709941d7c5273e316477fbedb7d30453fd314e6b37f14b3d045e122684a07",
+    "kind": "retained audited portrait"
+  },
+  {
+    "path": "assets/portraits/chang.webp",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\history\\portrait-chang.webp",
+    "sha256": "a70a97cb7874fe6b132e67c8b862e962a2e49a3eb709ae9f0e0f9451dabd26e0",
+    "kind": "retained audited portrait"
+  },
+  {
+    "path": "assets/portraits/liaoa.webp",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\history\\portrait-liaoa.webp",
+    "sha256": "d5653d151598d3bb2f75a08aa83bc627e5762ae3c4cb18171868b1696be3e6c0",
+    "kind": "retained audited portrait"
+  },
+  {
+    "path": "assets/portraits/xu.webp",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\history\\portrait-xu.webp",
+    "sha256": "0deaececf65b459a615afa283754da5310e6bd46edabc4291b70a822809ae384",
+    "kind": "retained audited portrait"
+  },
+  {
+    "path": "assets/art/hull-check.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\hull-check.webp",
+    "sha256": "b93acd5b7c627a4f5ddce02cd85d27fc90a72001aca18792b8e065588953937b",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/isolated-shore.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\isolated-shore.webp",
+    "sha256": "c395c91939c20853fd30e73f8fc569e3439ad73ca5dbe649cad6058836b709cc",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/loading-wave.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\loading-wave.webp",
+    "sha256": "12f0a8e4a73272cff1adb813c41eb75568afe9b7f70d7512e68721a92183480d",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/reinforcement.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\reinforcement.webp",
+    "sha256": "6ae987be42fdbd2648898d6153c4ee8ad9c3b55cf83847b22af3204dc4014627",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/repair-return.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\repair-return.webp",
+    "sha256": "35a3cca36df4b25148f34435197f8484d714748aa901b0a116e65046e7511140",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/rest-watch.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\rest-watch.webp",
+    "sha256": "63e5358015f1ff34bdb25789505784b647c835311b790163ee490f1345de02a0",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/scout-water.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\scout-water.webp",
+    "sha256": "cddad9616bf82e5b68e80faba9672dba1f899b2b79ca340bb653188fec2c0a19",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/signals.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\signals.webp",
+    "sha256": "afc7732ad2ab3a11b7f42a2444bc8b09dc104f4efb58a54f6e4a65271d133019",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/supplies-ashore.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\supplies-ashore.webp",
+    "sha256": "6fc0eab78c4470b46585ab6bff255999d3b1f8e5b82736a0f6ce40876845782e",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/wounded-care.webp",
+    "origin": "authoring-project/02_美术\\采石玩法样板_v0.1\\原画\\wounded-care.webp",
+    "sha256": "15dbbf8d7958e713eecacd9ec3b958fe53fb95ef3b2ad4d353fb1c242b307151",
+    "kind": "new independent imagegen composition"
+  },
+  {
+    "path": "assets/art/caishi-1.webp",
+    "origin": "authoring-project/02_美术\\第三章_渡江立业_v1\\原画\\caishi-1.webp",
+    "sha256": "7391ae9a14dd8502be9e0e096baaa10234d64967e439bafe17a8fdb7fa0942ce",
+    "kind": "retained audited battle composition"
+  },
+  {
+    "path": "assets/art/caishi-2.webp",
+    "origin": "authoring-project/02_美术\\第三章_渡江立业_v1\\原画\\caishi-2.webp",
+    "sha256": "1df2319c8ae6bc31d2e118f396e43a4c2cfc4fc5b162ab736390cae6f4bdb2a4",
+    "kind": "retained audited battle composition"
+  },
+  {
+    "path": "assets/art/caishi-3.webp",
+    "origin": "authoring-project/02_美术\\第三章_渡江立业_v1\\原画\\caishi-3.webp",
+    "sha256": "6e6c57511bef4849f1d190cecd78393aa7f148be4e414747ad72caf497f69830",
+    "kind": "retained audited battle composition"
+  },
+  {
+    "path": "assets/art/caishi-4.webp",
+    "origin": "authoring-project/02_美术\\第三章_渡江立业_v1\\原画\\caishi-4.webp",
+    "sha256": "45875169138098aa3273f4444f952bcc9cb2c0ba538b406f56ab23f597bcbfed",
+    "kind": "retained audited battle composition"
+  },
+  {
+    "path": "assets/art/caishi-5.webp",
+    "origin": "authoring-project/02_美术\\第三章_渡江立业_v1\\原画\\caishi-5.webp",
+    "sha256": "16f7e0b218952bc60c0923e63d9232c00904316f000ee41a037f24fd89d93dc5",
+    "kind": "retained audited battle composition"
+  },
+  {
+    "path": "assets/art/caishi-6.webp",
+    "origin": "authoring-project/02_美术\\第三章_渡江立业_v1\\原画\\caishi-6.webp",
+    "sha256": "04e2cc6fd29562f8c5da09086aac4dfddcd8f800dfbb125e2980ecd3abb444a8",
+    "kind": "retained audited battle composition"
+  },
+  {
+    "path": "assets/audio/caishiji.mp3",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\music\\caishiji.mp3",
+    "sha256": "ad83ae78248a2c7ccaae4a7bf99f13dd7bd359f7a34f367ffd68cc833695fd6a",
+    "kind": "retained original music sketch"
+  },
+  {
+    "path": "assets/audio/bow.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\bow.wav",
+    "sha256": "c7b1a2037d609446d0c6e0226e296c0b67d3ed4144c91e7caac538f4c33b396b",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/bowl.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\bowl.wav",
+    "sha256": "336746d4f00c35af8544cd19ffaa98df8a39eec1835c3b3fe1d48545bdb5db49",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/buckle.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\buckle.wav",
+    "sha256": "3d4ee1fcc04b4d7e40eb781e9a55b73d2122e5caf9dd00e51d5712c89f31fce2",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/cloth.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\cloth.wav",
+    "sha256": "94d818b957e5aff1f5b3aeab3d0088e8aa15186b550aa272581b89bb19844e95",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/creak.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\creak.wav",
+    "sha256": "4d90a4e7d3e58f87511e7cc2548b1a3b94198ab998d46f301782a05780bea176",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/paper.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\paper.wav",
+    "sha256": "beeb0b33e78810f4c3089e58a6430cb52e8948e998eaf13dede18c2276cadf6b",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/rope.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\rope.wav",
+    "sha256": "dc6ea1f8ef3a75ebcce1881783be60ee5b95c44e8af7031235cc52800ec51a87",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/step0.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\step0.wav",
+    "sha256": "d59cba89579567f962da0c92932c4bbd9e9b588981fea363e6d99a9d265621e0",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/step1.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\step1.wav",
+    "sha256": "732146f586f9956f8f9880ca3125fff4f9df53ab184995cebdf0026a740413fe",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/step2.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\step2.wav",
+    "sha256": "b5e4ac329a5476299a16a880bb816633f09a1169f6e516262924e88c26546101",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/step3.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\step3.wav",
+    "sha256": "3261e8efb2fa4d538c9ffd7aa2318f06d6c5dd661d56b60d58e8eb796ab4f535",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/stone.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\stone.wav",
+    "sha256": "ee93617cf874a0abae09947ae545badcf177a547c27362bd97e532c8ae24730f",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/stream.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\stream.wav",
+    "sha256": "6971f093275a4ccab1baf0cfa251dbcd65997b2f7a80d141ed8b2d73c373133e",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/wind.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\wind.wav",
+    "sha256": "d31c746afb4bfaeedb700d90c97424c900989e69d45fed3b05266b384a9d84c4",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/wood.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\wood.wav",
+    "sha256": "75e6019bef0246d5b92b96d696d92ebcd6ad3e1e1787a706e6b9dbe7d075ddaa",
+    "kind": "retained concept Foley"
+  },
+  {
+    "path": "assets/audio/wrap.wav",
+    "origin": "authoring-project/08_可玩样本\\第三章_渡江立业_v1.0\\assets\\audio\\foley\\wrap.wav",
+    "sha256": "38bb37f7654a68ac53f12562160562c4171ebbf09d51fc262385e5e8bc8b79b3",
+    "kind": "retained concept Foley"
+  }
+]

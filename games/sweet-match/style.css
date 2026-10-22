@@ -1,0 +1,299 @@
+/* 糖果派对 · 三消一刻 —— 独立极简布局 · 浅粉主题 · PC/手机自适应 */
+:root {
+  --bg: #f9d3e0;
+  --panel: #fffafb;
+  --ink: #5c3a4a;
+  --muted: #b58a9b;
+  --line: #f4dce4;
+  --primary: #d96a8c;
+  --primary-deep: #c24f74;
+  --accent: #e0608a;
+  --shadow: 0 18px 44px rgba(190, 90, 130, .16);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", system-ui, sans-serif;
+  background:
+    radial-gradient(ellipse at 12% 6%, #ffeaf2 0%, transparent 42%),
+    radial-gradient(ellipse at 88% 94%, #ffc9dd 0%, transparent 48%),
+    var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+
+/* ===== 顶部 ===== */
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px clamp(14px, 4vw, 40px);
+  max-width: 760px; width: 100%; margin: 0 auto;
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.logo {
+  width: 38px; height: 38px; border-radius: 12px;
+  background: linear-gradient(145deg, #f7a8b8, #e0608a);
+  color: #fff; font-size: 16px;
+  display: grid; place-items: center;
+  box-shadow: inset 0 -4px 8px rgba(0,0,0,.08), 0 6px 14px rgba(224,96,138,.35);
+}
+.brand small { display: block; font-size: 9px; letter-spacing: 2.5px; color: var(--muted); margin-top: 3px; font-weight: 500; }
+.head-right { display: flex; align-items: center; gap: 10px; }
+#status { font-size: 11px; color: var(--accent); }
+#status.warn { color: #d98a3c; }
+#sound, #levels {
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 1px solid var(--line); background: var(--panel);
+  color: var(--primary); font-size: 14px;
+  transition: transform .15s;
+}
+#levels { font-size: 15px; letter-spacing: 1px; }
+#sound.on { background: #ffe9f0; }
+#sound:active, #levels:active { transform: scale(.9); }
+
+/* ===== 主区 ===== */
+main {
+  width: min(600px, 100%);
+  margin: 0 auto;
+  padding: 0 clamp(10px, 3vw, 24px) 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.stage {
+  position: relative;
+  background:
+    radial-gradient(ellipse at 18% 0%, #fff 0%, transparent 52%),
+    radial-gradient(ellipse at 85% 100%, #ffe4ee 0%, transparent 58%),
+    var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: clamp(12px, 3vw, 20px);
+  box-shadow: var(--shadow);
+}
+
+/* 目标进度 */
+.goal-bar { margin-bottom: 14px; }
+.goal-bar label { font-size: 11px; color: var(--muted); display: block; margin-bottom: 7px; letter-spacing: 1px; }
+.goal-bar label b { color: var(--accent); font-size: 12px; }
+.goal-bar .track { height: 8px; border-radius: 99px; background: #fbe3eb; overflow: hidden; }
+#goal-fill { height: 100%; width: 0%; border-radius: 99px; background: linear-gradient(90deg, #f7a8b8, #e0608a); transition: width .4s ease; }
+
+/* ===== 棋盘 ===== */
+#board {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: linear-gradient(160deg, #fff2f6, #ffe6ee);
+  border: 1px solid #f8d8e2;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.gem {
+  position: absolute;
+  width: 12.5%; height: 12.5%;
+  left: 0; top: 0;
+  display: grid; place-items: center;
+  cursor: pointer;
+  transition: transform .22s cubic-bezier(.34,1.4,.5,1), opacity .2s;
+  z-index: 1;
+}
+.gem i {
+  display: block;
+  width: 78%; height: 78%;
+  position: relative;
+  overflow: hidden;
+  filter: drop-shadow(0 4px 5px rgba(150, 60, 90, .26));
+  transition: transform .18s ease;
+}
+/* 六种糖果：形状 + 颜色区分（三段渐变，糖体质感） */
+.gem.t0 i { border-radius: 50%; background: radial-gradient(circle at 32% 26%, #ffbcc9, #f2607f 48%, #cf3a5f 88%); }
+.gem.t1 i { clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); background: radial-gradient(circle at 50% 64%, #ffeab0, #f8bb37 55%, #dd9312 92%); }
+.gem.t2 i { border-radius: 34%; background: radial-gradient(circle at 32% 26%, #d4f6c2, #79c869 52%, #47973f 90%); }
+.gem.t3 i { clip-path: polygon(50% 4%, 96% 50%, 50% 96%, 4% 50%); background: linear-gradient(125deg, rgba(255,255,255,.55) 0 14%, rgba(255,255,255,0) 32%), linear-gradient(245deg, rgba(255,255,255,.35) 0 12%, rgba(255,255,255,0) 28%), linear-gradient(160deg, #a9d9ff, #55a4ea 55%, #2f74c4 92%); }
+.gem.t4 i { clip-path: polygon(50% 0%, 63% 9%, 96% 93%, 94% 100%, 6% 100%, 4% 93%, 37% 9%); background: linear-gradient(185deg, #e0c4f8, #9a5bd3 72%); }
+.gem.t5 i { border-radius: 50% 50% 50% 10px; background: radial-gradient(circle at 32% 26%, #ffdfc4, #f58f50 55%, #d9642a 90%); }
+/* 通用质感：内描边 + 底部环境暗部（未被裁切的形状） */
+.gem.t0 i, .gem.t2 i, .gem.t5 i { box-shadow: inset 0 0 0 2px rgba(255,255,255,.3), inset 0 -9px 12px rgba(70, 20, 45, .22); }
+/* 月牙高光（裁切形状会被 clip-path 自然收进轮廓内） */
+.gem i::before { content: ""; position: absolute; left: 12%; top: 7%; width: 46%; height: 30%; border-radius: 50%; background: linear-gradient(160deg, rgba(255,255,255,.95), rgba(255,255,255,.2)); filter: blur(1px); transform: rotate(-16deg); }
+.gem.t1 i::before { left: 30%; top: 16%; width: 38%; height: 24%; }
+.gem.t3 i::before { left: 34%; top: 20%; width: 34%; height: 22%; }
+.gem.t4 i::before { left: 33%; top: 48%; width: 34%; height: 20%; transform: none; }
+
+/* ===== 特殊糖果 ===== */
+/* 条纹糖（横向条纹清整行 / 纵向条纹清整列） */
+.gem.sp-h i::after, .gem.sp-v i::after {
+  content: ""; position: absolute; border-radius: 4px;
+  background: repeating-linear-gradient(180deg, transparent 0 5px, rgba(255,255,255,.78) 5px 8px);
+  animation: stripeFlow 1.2s linear infinite;
+}
+.gem.sp-h i::after { left: 8%; right: 8%; top: 0; bottom: 0; }
+.gem.sp-v i::after {
+  left: 0; right: 0; top: 8%; bottom: 8%;
+  background: repeating-linear-gradient(90deg, transparent 0 5px, rgba(255,255,255,.78) 5px 8px);
+}
+@keyframes stripeFlow { to { background-position: 0 14px; } }
+/* 炸弹糖（包裹炸弹） */
+.gem.sp-b i {
+  border-radius: 38% !important;
+  box-shadow: inset 0 0 0 5px rgba(90, 20, 45, .35), inset -4px -6px 10px rgba(0,0,0,.2) !important;
+  animation: bombPulse 1s ease-in-out infinite alternate;
+}
+.gem.sp-b i::after {
+  content: ""; position: absolute; inset: 20%;
+  border: 3px dashed rgba(255,255,255,.9); border-radius: 50%;
+  animation: spin 3s linear infinite;
+}
+@keyframes bombPulse { to { transform: scale(1.08); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+/* 彩虹糖（清同色） */
+.gem.sp-r i {
+  clip-path: none !important;
+  border-radius: 50%;
+  background: conic-gradient(#ff6b81, #ffd166, #8ecf72, #5aa9e6, #a06cd5, #ff6b81);
+  animation: spin 2.4s linear infinite;
+  box-shadow: 0 0 12px rgba(255,255,255,.8), inset 0 0 8px rgba(255,255,255,.5);
+}
+.gem.sp-r i::before { display: none; }
+/* 新诞生的特殊糖果 */
+.gem.born i { animation: born .35s cubic-bezier(.34,1.6,.5,1); }
+@keyframes born { from { transform: scale(0) rotate(-90deg); } }
+
+/* ===== 冰块 ===== */
+.ice {
+  position: absolute; width: 12.5%; height: 12.5%;
+  left: 0; top: 0;
+  display: grid; place-items: center;
+  pointer-events: none; z-index: 0;
+}
+.ice i {
+  display: block; width: 88%; height: 88%; border-radius: 12px;
+  background: linear-gradient(160deg, rgba(255,255,255,.85), rgba(214,240,255,.5));
+  border: 2px solid rgba(150,200,240,.75);
+  box-shadow: inset 0 0 10px rgba(255,255,255,.95);
+}
+.ice.l2 i { border-width: 3px; background: linear-gradient(160deg, rgba(255,255,255,.95), rgba(180,225,255,.75)); }
+.ice.break i { animation: iceBreak .32s ease forwards; }
+@keyframes iceBreak {
+  40% { transform: scale(1.12); opacity: 1; }
+  100% { transform: scale(.2) rotate(18deg); opacity: 0; }
+}
+
+/* ===== 收集目标小圆点 ===== */
+.dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: -1px; box-shadow: inset -2px -3px 4px rgba(0,0,0,.2), inset 2px 3px 4px rgba(255,255,255,.5); }
+
+/* ===== 星级 ===== */
+.m-stars { font-size: 26px; letter-spacing: 8px; margin-bottom: 8px; }
+.m-stars b { color: #f5b942; text-shadow: 0 2px 6px rgba(245,185,66,.4); }
+.m-stars s { color: #e7dfe2; text-decoration: none; }
+
+/* ===== 关卡选择 ===== */
+.lv-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 4px 0 16px; }
+.lv-btn {
+  border: 1px solid var(--line); background: #fff; border-radius: 12px;
+  padding: 10px 0 7px; font-size: 15px; font-weight: 700; color: var(--primary-deep);
+  transition: transform .12s;
+}
+.lv-btn small { display: block; font-size: 10px; color: #f5b942; letter-spacing: 1px; margin-top: 2px; }
+.lv-btn:not(:disabled):hover { transform: translateY(-2px); background: #fff5f8; }
+.lv-btn:disabled { opacity: .45; }
+
+.gem.sel { z-index: 3; }
+.gem.sel i { transform: scale(1.12); box-shadow: 0 0 0 3px #fff, 0 0 0 5px #f0a5b8; animation: selPulse 1s infinite alternate; }
+@keyframes selPulse { to { box-shadow: 0 0 0 3px #fff, 0 0 0 6px #f0a5b8aa; } }
+.gem.hint i { animation: hintJump .7s infinite alternate; }
+@keyframes hintJump { to { transform: translateY(-6%) scale(1.06); } }
+.gem.pop i { animation: gemPop .26s ease forwards; }
+@keyframes gemPop {
+  40% { transform: scale(1.25); filter: drop-shadow(0 0 10px rgba(255,255,255,.9)); }
+  100% { transform: scale(0); opacity: 0; }
+}
+
+/* 分数 */
+.score-wrap { display: flex; gap: 10px; margin-top: 14px; }
+.score-item { flex: 1; background: #fdeef3; border: 1px solid var(--line); border-radius: 12px; padding: 9px 12px; text-align: center; }
+.score-item label { font-size: 9px; letter-spacing: 2px; color: #c794a6; display: block; }
+.score-item > div { font-size: 21px; font-weight: 700; color: var(--primary-deep); margin-top: 2px; font-variant-numeric: tabular-nums; }
+#score-pts { position: fixed; z-index: 50; pointer-events: none; font-weight: 700; color: #e0608a; font-size: 15px; text-shadow: 0 1px 0 #fff; animation: ptsFloat .8s ease forwards; }
+@keyframes ptsFloat { to { transform: translateY(-34px); opacity: 0; } }
+
+/* 提示与连消 */
+#toast {
+  position: absolute; left: 50%; top: 14px; transform: translateX(-50%) translateY(-8px);
+  background: #6d3a4de6; color: #fff2f6; font-size: 12px; letter-spacing: 1px;
+  padding: 8px 18px; border-radius: 999px; opacity: 0; pointer-events: none;
+  transition: opacity .3s, transform .3s; white-space: nowrap; z-index: 6;
+}
+#toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+#combo {
+  position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%) scale(.6);
+  font-size: clamp(22px, 5vw, 34px); font-weight: 800; letter-spacing: 3px;
+  color: #fff; text-shadow: 0 2px 0 #d95f7c, 0 6px 20px rgba(0,0,0,.3);
+  opacity: 0; pointer-events: none; z-index: 5;
+}
+#combo.show { animation: comboPop .9s ease forwards; }
+@keyframes comboPop {
+  15% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); }
+  30% { transform: translate(-50%, -50%) scale(1); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translate(-50%, -70%) scale(1); }
+}
+
+/* 弹窗 */
+#overlay {
+  position: absolute; inset: 0; z-index: 10;
+  background: rgba(140, 60, 90, .42); backdrop-filter: blur(3px);
+  display: grid; place-items: center; border-radius: 20px;
+}
+#overlay[hidden] { display: none; }
+#modal {
+  width: min(320px, 84%); background: var(--panel);
+  border-radius: 18px; padding: 28px 24px; text-align: center;
+  box-shadow: 0 24px 60px rgba(0,0,0,.25);
+  animation: modalIn .35s cubic-bezier(.34,1.4,.5,1);
+}
+@keyframes modalIn { from { transform: translateY(18px) scale(.92); opacity: 0; } }
+#modal .m-eyebrow { font-size: 10px; letter-spacing: 4px; color: #c794a6; margin-bottom: 10px; font-weight: 700; }
+#modal h3 { font-size: 24px; margin-bottom: 10px; letter-spacing: 1px; }
+#modal p { font-size: 13px; color: var(--muted); line-height: 1.8; margin-bottom: 18px; }
+#modal .m-actions { display: flex; gap: 10px; justify-content: center; }
+#modal button {
+  border: none; border-radius: 10px; padding: 11px 22px;
+  font-size: 13px; letter-spacing: 1px; transition: transform .15s;
+}
+#modal button:active { transform: scale(.94); }
+#modal .btn-main { background: var(--primary); color: #fff5f8; }
+
+/* ===== 底部 ===== */
+footer {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px clamp(14px, 4vw, 40px) 18px;
+  max-width: 760px; width: 100%; margin: 0 auto;
+  font-size: 11px; color: var(--muted); letter-spacing: 1px;
+}
+footer a { color: var(--primary); font-weight: 600; }
+footer a:hover { text-decoration: underline; }
+
+/* ===== 手机端 ===== */
+@media (max-width: 560px) {
+  header { padding: 12px 16px; }
+  .stage { border-radius: 16px; }
+  .score-item { padding: 7px 8px; }
+  .score-item > div { font-size: 17px; }
+  footer { padding: 12px 16px 16px; }
+}
+/* 桌面端棋盘居中，留出呼吸感 */
+@media (min-width: 900px) {
+  main { justify-content: center; padding-bottom: 24px; }
+}

@@ -1,0 +1,10 @@
+{
+  "checks": 32,
+  "result": "PASS",
+  "nodes": [
+    "C4-02",
+    "C5-X07",
+    "C5-10A"
+  ],
+  "scope": "actual operation completion, PV save/reload at each frame, no duplicate resource settlement"
+}

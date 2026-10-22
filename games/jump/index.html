@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>一步之间 · 跳一跳</title><link rel="stylesheet" href="style.css"></head><body>
+<header>
+  <div class="brand"><span class="logo">◈</span><div>一步之间<small>LITTLE HOPS.</small></div></div>
+  <div class="head-right"><span id="status">● 准备好了</span><button id="restart" aria-label="重新开始">↻</button><button id="help" aria-label="玩法说明">?</button><button id="sound" aria-label="开启音效">♪</button></div>
+</header>
+<main>
+  <section class="intro"><div><div class="eyebrow">THE ART OF SMALL STEPS</div><h1>每一跳，都刚刚好。</h1><p>按住，蓄力。松开，向下一块小岛出发。</p></div><span>专注当下 · 享受节奏</span></section>
+  <section class="stage" id="stage" tabindex="0" aria-label="按住画面或空格蓄力，松开跳跃">
+    <canvas id="game"></canvas>
+    <div class="stage-head"><div class="scene">FLOATING GARDEN<small>漂浮花园</small></div></div>
+    <div class="score-wrap"><label>SCORE</label><div id="score">0</div></div>
+    <div id="toast" aria-live="polite"></div>
+    <div class="power" id="power"><div>蓄力中 <span id="percent">0%</span></div><div class="track"><div id="fill"></div><i id="target"></i></div></div>
+    <div id="overlay" hidden><div id="modal" role="dialog" aria-modal="true" aria-label="游戏提示"></div></div>
+  </section>
+  <section class="stats">
+    <div class="stat-item"><label>个人最佳</label><div id="best">0</div></div>
+    <div class="stat-item"><label>本局完美落点</label><div><span id="perfect">0</span><small> 次</small></div></div>
+    <div class="stat-item"><label>当前岛屿</label><div id="island" class="island">ISLAND 001</div></div>
+  </section>
+  <p class="hint">按住画面或空格键蓄力 · 松开起跳 · 命中小岛中心有连击加分</p>
+</main>
+<script src="game.js"></script>
+<a href="../../index.html" style="position:fixed;right:16px;bottom:16px;z-index:100;background:#365b41;color:#f6f8ef;text-decoration:none;padding:11px 17px;border-radius:24px;font:12px sans-serif;box-shadow:0 4px 18px #29432b25" aria-label="返回小游戏大厅">← 返回大厅</a>
+</body></html>

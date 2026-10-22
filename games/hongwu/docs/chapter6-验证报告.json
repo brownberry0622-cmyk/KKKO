@@ -1,0 +1,17 @@
+{
+  "chapter": 6,
+  "nodes": 24,
+  "uniqueIds": 24,
+  "battleNodes": 11,
+  "sources": 17,
+  "characterEntries": 47,
+  "chronologicalMonthOrder": "passed (null window node separately documented)",
+  "sourceKeyCoverage": "passed",
+  "originalNodeCoverage": "all listed original chapter nodes mapped",
+  "modifiedGameFiles": false,
+  "generatedImages": 0,
+  "outputs": [
+    "编年与任将校核.json",
+    "第六章_24节点实施考据.txt"
+  ]
+}

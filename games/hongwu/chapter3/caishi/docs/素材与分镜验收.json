@@ -1,0 +1,153 @@
+{
+  "checks": 267,
+  "films": 14,
+  "distinctArt": 16,
+  "media": 37,
+  "variants": [
+    {
+      "id": "prepare-signal",
+      "title": "旗鼓已定，候令开舟",
+      "shots": [
+        "scout-water",
+        "signals",
+        "loading-wave",
+        "caishi-1"
+      ],
+      "duration": 15.2
+    },
+    {
+      "id": "prepare-hull",
+      "title": "舟具整备，稳渡大江",
+      "shots": [
+        "hull-check",
+        "loading-wave",
+        "scout-water"
+      ],
+      "duration": 11.399999999999999
+    },
+    {
+      "id": "dispatch-wave",
+      "title": "军令已下，船队出发",
+      "shots": [
+        "loading-wave",
+        "signals",
+        "caishi-1"
+      ],
+      "duration": 11.399999999999999
+    },
+    {
+      "id": "repair-wave",
+      "title": "留泊抢修",
+      "shots": [
+        "hull-check",
+        "repair-return",
+        "signals"
+      ],
+      "duration": 11.399999999999999
+    },
+    {
+      "id": "landing-covered",
+      "title": "常遇春先登",
+      "shots": [
+        "caishi-5",
+        "caishi-3",
+        "reinforcement",
+        "supplies-ashore"
+      ],
+      "duration": 15.2
+    },
+    {
+      "id": "landing-exposed",
+      "title": "先登已成，急需接应",
+      "shots": [
+        "caishi-2",
+        "caishi-3",
+        "isolated-shore",
+        "signals"
+      ],
+      "duration": 15.2
+    },
+    {
+      "id": "counter-reserve",
+      "title": "后队出发，接续岸头",
+      "shots": [
+        "isolated-shore",
+        "loading-wave",
+        "scout-water"
+      ],
+      "duration": 11.399999999999999
+    },
+    {
+      "id": "counter-volley",
+      "title": "舟师齐射，压住反扑",
+      "shots": [
+        "isolated-shore",
+        "caishi-5",
+        "signals"
+      ],
+      "duration": 11.399999999999999
+    },
+    {
+      "id": "counter-hold",
+      "title": "收紧岸头，稳住阵脚",
+      "shots": [
+        "isolated-shore",
+        "supplies-ashore",
+        "signals"
+      ],
+      "duration": 11.399999999999999
+    },
+    {
+      "id": "victory-orderly",
+      "title": "兵甲接续，江岸立足",
+      "shots": [
+        "reinforcement",
+        "supplies-ashore",
+        "caishi-4",
+        "caishi-6"
+      ],
+      "duration": 15.2
+    },
+    {
+      "id": "victory-costly",
+      "title": "渡江得岸，代价尚存",
+      "shots": [
+        "isolated-shore",
+        "reinforcement",
+        "repair-return",
+        "caishi-6"
+      ],
+      "duration": 15.2
+    },
+    {
+      "id": "care-repair",
+      "title": "渡船修缮",
+      "shots": [
+        "hull-check",
+        "repair-return",
+        "supplies-ashore"
+      ],
+      "duration": 11.399999999999999
+    },
+    {
+      "id": "care-rest",
+      "title": "诸队轮换",
+      "shots": [
+        "reinforcement",
+        "rest-watch",
+        "supplies-ashore"
+      ],
+      "duration": 11.399999999999999
+    },
+    {
+      "id": "care-care",
+      "title": "伤员安置",
+      "shots": [
+        "reinforcement",
+        "wounded-care",
+        "rest-watch"
+      ],
+      "duration": 11.399999999999999
+    }
+  ]
+}

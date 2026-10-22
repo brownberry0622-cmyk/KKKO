@@ -1,0 +1,279 @@
+{
+  "title": "第四章重制版复核补遗",
+  "checked": "2026-10-14",
+  "scope": "只读核查06_制作工具/campaign-rework/chapter4-content.json 41段；未修改游戏代码或原始策划。",
+  "findings": [
+    {
+      "id": "RV01",
+      "severity": "硬错",
+      "nodes": [
+        "C4-X03"
+      ],
+      "problem": "1359四月池州复城不能写徐达、常遇春共同出阵；这是误混1360五月徐常池州战。",
+      "minimal": "cast改徐达、俞通海、张德胜；body写徐达遣俞通海等攻赵普胜，张德胜协同，遂复池州。",
+      "sources": [
+        "sl7",
+        "m133",
+        "m1"
+      ]
+    },
+    {
+      "id": "RV02",
+      "severity": "关键人物遗漏",
+      "nodes": [
+        "C4-09-Q"
+      ],
+      "problem": "1359九月取衢州的主将常遇春被当前胡大海、胡德济、孙炎阵容替代。",
+      "minimal": "cast改常遇春、朱亮祖、王恺；body先明常遇春克衢州，再呈现朱亮祖受任、王恺兼理军储。胡大海可作浙东统筹背景。",
+      "sources": [
+        "sl7",
+        "m1"
+      ]
+    },
+    {
+      "id": "RV03",
+      "severity": "姓名硬错",
+      "nodes": [
+        "C4-R07"
+      ],
+      "problem": "beats第3项仍称李文忠，本章尚从朱姓。",
+      "minimal": "改为朱文忠；其共同任事是后续关系概述，不伪造两人同日会面。",
+      "sources": [
+        "m126"
+      ]
+    },
+    {
+      "id": "RV04",
+      "severity": "当前与回顾混淆",
+      "nodes": [
+        "C4-05",
+        "C4-R03"
+      ],
+      "problem": "排在1357六月江阴之后的C4-05从四月又开始，R03还先于当前版本首次宁国画面。",
+      "minimal": "不扩节点：C4-05 date改1357十月·本年军报汇总（回顾四月、七月）；body先回顾四月宁国、七月徽州，再报十月池州/扬州。R03加人物卷回溯·宁国再征旧事，不将阅读位置伪作事件日期。地图回顾不回写当期状态。",
+      "sources": [
+        "m1"
+      ]
+    },
+    {
+      "id": "RV05",
+      "severity": "提前任职风险",
+      "nodes": [
+        "C4-R02",
+        "C4-07"
+      ],
+      "problem": "R02置1356而date、body、cards合1356归附/1357水军/1358营田，并直接谈屯田履职。",
+      "minimal": "R02保留当前位置，date写1356集庆归附后·回顾；正文及卡片只做归附整军。1357/1358任命放史栏后续或到对应时点更新；营田正式任务留C4-07。不要1356先赋予营田使。",
+      "sources": [
+        "m130",
+        "sl6"
+      ]
+    },
+    {
+      "id": "RV06",
+      "severity": "未来事件前置",
+      "nodes": [
+        "C4-R12"
+      ],
+      "problem": "1357当前位置已叙述邵荣1359处州功，beats又演到1362案件。",
+      "minimal": "移至C4-R07之后，year=1359、date=人物卷·回顾江阴至浙东任事；删除玩家可见的1362案件镜头，留后续章节制作注释。",
+      "sources": [
+        "m1",
+        "sl6",
+        "sl7"
+      ]
+    },
+    {
+      "id": "RV07",
+      "severity": "已亡人物当前出场风险",
+      "nodes": [
+        "C4-11"
+      ],
+      "problem": "1359八月汴梁陷落阶段的cast无区别列毛贵，但当时毛贵已被赵均用所杀。",
+      "minimal": "cast标毛贵（1357—1358前情）；当期军报补其遇害与山东内争，不再画为眼下指挥者。",
+      "sources": [
+        "m122"
+      ]
+    },
+    {
+      "id": "RV08",
+      "severity": "PV仍沿旧错误因果",
+      "nodes": [
+        "C4-R10"
+      ],
+      "problem": "date已改龙湾后，但首幅仍写赵普胜死讯刚到即离旧方，可能演成1359即归。",
+      "minimal": "改回想1359旧主遇害；眼下1360龙湾战败后率部归降，并报安庆兵虚。鄱阳未来战事只留后续制作备注。",
+      "sources": [
+        "sl8",
+        "m133"
+      ]
+    },
+    {
+      "id": "RV09",
+      "severity": "未定年被具体场景固定",
+      "nodes": [
+        "C4-R06",
+        "C4-F02",
+        "C4-F03"
+      ],
+      "problem": "date承认未定年，year1358/1359与交办卡片却易把档案承载点读成确年。",
+      "minimal": "各页显著加人物卷·未定年，卡片用阅卷/了解履历，不写今日初归或本次俘卒军报。F02本期称建德（后称严州）；俘卒醉擒仅档案展示，不把后续可能发生的事件硬落实为1359。",
+      "sources": [
+        "m121",
+        "m126",
+        "m132",
+        "m133"
+      ]
+    },
+    {
+      "id": "RV10",
+      "severity": "关键人物遗漏",
+      "nodes": [
+        "C4-09"
+      ],
+      "problem": "处州攻取cast缺耿再成，《明史》133明确他与胡大海破石抹宜孙并守处州。",
+      "minimal": "补耿再成；胡德济、孙炎只在有据的后续任事中出现，不替换实际主战将。",
+      "sources": [
+        "m133",
+        "sl7"
+      ]
+    },
+    {
+      "id": "RV11",
+      "severity": "称号归属混淆",
+      "nodes": [
+        "C4-03"
+      ],
+      "problem": "卡片标题核实韩宋所授职号会使1356诸将奉公变成韩宋当时已授吴国公。",
+      "minimal": "改查验称号与韩宋名义统属，保留1356/1361异说。",
+      "sources": [
+        "sl4",
+        "m1",
+        "yuben"
+      ]
+    },
+    {
+      "id": "RV12",
+      "severity": "引用不支持事件",
+      "nodes": [
+        "C4-04-L",
+        "C4-04-C",
+        "C4-X06"
+      ],
+      "problem": "长兴/常州引用1360实录8不支持1357取守；马氏犒军直接出处为明史113。",
+      "minimal": "4-L用明史1+130；4-C用明史1+126；X06加明史113。",
+      "sources": [
+        "m1",
+        "m130",
+        "m126",
+        "m113"
+      ]
+    },
+    {
+      "id": "RV13",
+      "severity": "拆分后的残留人物",
+      "nodes": [
+        "C4-17"
+      ],
+      "problem": "马氏犒军已独立为X06，17的date/cast仍含马氏。",
+      "minimal": "date只留1360龙湾胜后追至采石；cast移除马氏，避免她被自动置于追击舟师中。",
+      "sources": [
+        "m133",
+        "m113"
+      ]
+    }
+  ],
+  "sources": {
+    "m1": {
+      "title": "《明史》卷1·太祖本纪一",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷1"
+    },
+    "m113": {
+      "title": "《明史》卷113·马皇后传",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷113"
+    },
+    "m115": {
+      "title": "《明史》卷115·兴宗孝康皇帝",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷115"
+    },
+    "m121": {
+      "title": "《明史》四库本卷121·李贞附传",
+      "url": "https://zh.wikisource.org/zh-hant/明史_(四庫全書本)/卷121"
+    },
+    "m126": {
+      "title": "《明史》卷126·李文忠、汤和、沐英",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷126"
+    },
+    "m128": {
+      "title": "《明史》卷128·刘基、宋濂、叶琛、章溢",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷128"
+    },
+    "m129": {
+      "title": "《明史》卷129·冯胜、廖永忠",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷129"
+    },
+    "m130": {
+      "title": "《明史》卷130·吴良、康茂才、耿炳文等",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷130"
+    },
+    "m132": {
+      "title": "《明史》卷132·朱亮祖、王弼等",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷132"
+    },
+    "m133": {
+      "title": "《明史》卷133·廖永安、俞通海、胡大海、张德胜、桑世杰、胡深等",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷133"
+    },
+    "m134": {
+      "title": "《明史》卷134·何文辉、缪大亨、袁义等",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷134"
+    },
+    "m135": {
+      "title": "《明史》卷135·陈遇、秦从龙、范常等",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷135"
+    },
+    "m136": {
+      "title": "《明史》卷136·陶安、朱升等",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷136"
+    },
+    "sl4": {
+      "title": "《明太祖实录》卷4·丙申1356",
+      "url": "https://zh.wikisource.org/zh-hans/大明太祖高皇帝實錄/卷004"
+    },
+    "sl6": {
+      "title": "《明太祖实录》卷6·戊戌1358",
+      "url": "https://zh.wikisource.org/zh-hans/大明太祖高皇帝實錄/卷006"
+    },
+    "sl7": {
+      "title": "《明太祖实录》卷7·己亥1359",
+      "url": "https://zh.wikisource.org/zh-hans/大明太祖高皇帝實錄/卷007"
+    },
+    "sl8": {
+      "title": "《明太祖实录》卷8·庚子1360",
+      "url": "https://zh.wikisource.org/zh-hans/大明太祖高皇帝實錄/卷008"
+    },
+    "sl20": {
+      "title": "《明太祖实录》卷20·丙午1366，廖永安追叙",
+      "url": "https://zh.wikisource.org/zh-hans/大明太祖高皇帝實錄/卷020"
+    },
+    "sl236": {
+      "title": "《明太祖实录》卷236·冯胜传追叙（网络转录）",
+      "url": "https://doosho.com/cn/690/236",
+      "note": "已与另一转录交叉；后一站有明显OCR杂误，不整段移作游戏原文。"
+    },
+    "yuben": {
+      "title": "《国初群雄事略》卷1所引俞本《纪事录》",
+      "url": "https://www.shidianguji.com/zh/book/CADAL02112345/chapter/1lmshaa3opsfc",
+      "note": "卷内龙凤七年条记亳都升为吴国公，与《明史》《实录》1356不同。"
+    },
+    "popular9": {
+      "title": "《明朝那些事儿·洪武大帝》第九章：决战不可避免",
+      "url": "https://5165.org/renwen/hongwudadi/233940015.html",
+      "note": "本次定位原文，只用于筑墙积粮缓称王的叙述顺序；此页没有给朱升问策的确年。"
+    },
+    "m122": {
+      "title": "《明史》卷122·韩林儿传",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷122"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#fdf0f4">
+<title>糖果派对 · 三消一刻</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="logo">◈</span><div>糖果派对<small>CANDY PARTY.</small></div></div>
+  <div class="head-right"><span id="status">● 准备好了</span><button id="levels" aria-label="选择关卡">☰</button><button id="sound" aria-label="开启音效">♪</button></div>
+</header>
+<main>
+  <section class="stage">
+    <div class="goal-bar">
+      <label id="goal-text">准备中…</label>
+      <div class="track"><div id="goal-fill"></div></div>
+    </div>
+    <div id="board" aria-label="点击或拖动糖果进行交换"></div>
+    <div class="score-wrap">
+      <div class="score-item"><label>得分</label><div id="score">0</div></div>
+      <div class="score-item"><label>关卡</label><div id="level">1</div></div>
+      <div class="score-item"><label>最佳</label><div id="best">0</div></div>
+    </div>
+    <div id="toast" aria-live="polite"></div>
+    <div id="combo" aria-live="polite"></div>
+    <div id="overlay" hidden><div id="modal" role="dialog" aria-modal="true"></div></div>
+  </section>
+</main>
+<footer><span>糖果派对 / CANDY PARTY</span></footer>
+<a href="../../index.html" style="position:fixed;right:16px;bottom:16px;z-index:100;background:#c24f74;color:#fff;text-decoration:none;padding:11px 17px;border-radius:24px;font:12px sans-serif;box-shadow:0 4px 18px rgba(190,70,110,.4)" aria-label="返回小游戏大厅">← 返回大厅</a>
+<script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+《洪武：兵起濠州》战役重制版v0.3，2026-10-15
+{
+  "edition": "v0.3 前五章",
+  "date": "2026-10-15",
+  "battleNodesByChapter": [
+    3,
+    4,
+    8,
+    15,
+    23
+  ],
+  "totalBattleNodes": 53,
+  "chapter5Nodes": 54,
+  "chapter5Films": 108,
+  "newArt": 24,
+  "campaignAssertions": 7159,
+  "chapter5Checks": 8858,
+  "combatChecks": 10871,
+  "migrationChecks": 1121
+}
+
+详情见本版说明.html；浏览器检查见browser-report.json（完成后保存）。
+原画为24幅新增独立构图，108条浏览器静态PV复用完整画面，非540幅独立画作。
+
+浏览器补验：第一章接人归营护送自走棋战通关，接回既有结果MP4；洪都和鄱阳实机闭环通过。查看browser-report.json及本目录PNG截图。所有操作使用QA记录。

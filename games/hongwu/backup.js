@@ -1,0 +1,18 @@
+(function(){'use strict';
+const dialog=document.getElementById('recordDialog'),wrap=document.createElement('section');wrap.className='backup-import';wrap.innerHTML='<h3>恢复全篇备份</h3><p>选择此前导出的全篇JSON文件。先逐章检查，再确认覆盖；文件不会上传。</p><input id="backupFile" type="file" accept=".json,application/json" aria-label="选择全篇备份文件"><button type="button" id="inspectBackup">检查并预览</button><div id="backupPreview" role="status"></div>';dialog.querySelector('form').insertBefore(wrap,dialog.querySelector('form').lastElementChild);
+const $=id=>document.getElementById(id);let prepared=null,request=0;
+function verify(chapter,state){return new Promise((resolve,reject)=>{const worker=new Worker('save-validator.js'),timeout=setTimeout(()=>{worker.terminate();reject(Error('记录检查超时，请重试'));},20000);const done=()=>{clearTimeout(timeout);worker.terminate();};worker.onmessage=e=>{done();e.data.ok?resolve(e.data):reject(Error(e.data.error));};worker.onerror=()=>{done();reject(Error('记录校验模块未能载入，请检查网站文件是否齐全'));};worker.postMessage({chapter,state});});}
+function filmRecords(data){const entries=[];
+ if(data.prologue!=null){const p=data.prologue;if(typeof p!=='object'||typeof p.completed!=='boolean'||!Number.isFinite(p.position)||p.position<0||p.position>90.5||p.version!=='PV001-v04')throw Error('序幕记录格式无效');entries.push(['hongwu-full-prologue-v1',{position:p.position,completed:p.completed,version:p.version}]);}
+ if(data.ending!=null){const p=data.ending;if(typeof p!=='object'||typeof p.completed!=='boolean'||!Number.isInteger(p.frame)||p.frame<0||p.frame>18)throw Error('终章影卷记录格式无效');entries.push(['hongwu-full-ending-v1',{frame:p.frame,completed:p.completed}]);}
+ return entries;
+}
+$('backupFile').onchange=()=>{request++;prepared=null;$('backupPreview').replaceChildren();};
+$('inspectBackup').onclick=async()=>{prepared=null;const token=++request,area=$('backupPreview');area.replaceChildren();try{
+ const file=$('backupFile').files[0];if(!file)throw Error('先选择备份文件');if(file.size>20*1024*1024)throw Error('该文件过大，不像本作存档');const data=JSON.parse(await file.text());if(data.format!=='full-game-backup-v1'||data.game!=='洪武：兵起濠州'||!data.saves||typeof data.saves!=='object'||Array.isArray(data.saves))throw Error('请选择首页导出的全篇备份；单章文件在对应章节中导入');const entries=Object.entries(data.saves),films=filmRecords(data);if(entries.length>8||entries.some(([n])=>!/^[1-8]$/.test(n))||(!entries.length&&!films.length))throw Error('备份内没有有效记录');area.textContent='正在逐章检查……';
+ const rows=await Promise.all(entries.map(([n,v])=>verify(Number(n),v)));if(token!==request)return;prepared=[...rows.map(r=>['hongwu-rework-c'+r.chapter+'-full-v1',r.state]),...films];
+ area.textContent='检查通过。'+(rows.length?'将恢复第 '+rows.map(r=>r.chapter).join('、')+' 章，其中已完成 '+rows.filter(r=>r.phase==='complete').length+' 章。':'')+(films.length?'同时恢复 '+films.length+' 段影卷的观看记录。':'')+'确认后替换上述新版记录；未包含章节及旧版记录保留。';const button=document.createElement('button');button.type='button';button.className='primary';button.textContent='确认恢复这些记录';button.onclick=()=>{const old=new Map();try{
+  if(!prepared||token!==request)throw Error('请重新检查备份');const writes=prepared.map(([key,state])=>[key,JSON.stringify(state)]);for(const [key]of writes)old.set(key,localStorage.getItem(key));for(const [key,value]of writes)localStorage.setItem(key,value);location.reload();
+ }catch(error){for(const [key]of old){try{localStorage.removeItem(key);}catch{}}for(const [key,value]of old){try{if(value!==null)localStorage.setItem(key,value);}catch{}}area.textContent='未完成恢复，原记录已尝试还原：'+error.message;}};area.append(button);
+}catch(error){if(token===request)area.textContent='未改动记录：'+error.message;}};
+})();

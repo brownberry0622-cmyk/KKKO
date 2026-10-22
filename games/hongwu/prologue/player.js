@@ -1,0 +1,7 @@
+(function(){const video=document.getElementById('movie'),start=document.getElementById('startPanel'),label=document.getElementById('progress'),QA=new URLSearchParams(location.search).has('qa'),KEY='hongwu-full-prologue-v1'+(QA?'-qa':'');let saved=null,started=false;try{saved=JSON.parse(localStorage.getItem(KEY));}catch{}
+video.onloadedmetadata=()=>{if(saved?.position&&!saved.completed&&!new URLSearchParams(location.search).has('replay'))video.currentTime=Math.min(video.duration-1,saved.position);};
+function write(completed=false){if(!started)return;try{saved={position:video.currentTime,completed:completed||!!saved?.completed,version:'PV001-v04',updated:new Date().toISOString()};localStorage.setItem(KEY,JSON.stringify(saved));}catch{}}
+document.getElementById('start').onclick=()=>{started=true;start.hidden=true;video.play().catch(()=>{label.textContent='请点击画面播放键';});};document.getElementById('replay').onclick=()=>{started=true;start.hidden=true;video.currentTime=0;video.play().catch(()=>{});};
+let sec=-1;video.ontimeupdate=()=>{const now=Math.floor(video.currentTime);label.textContent=now+' / '+Math.round(video.duration||90)+'秒';if(now!==sec){sec=now;write();}};
+video.onended=()=>{write(true);label.textContent='序幕已毕 · 朱重八进入郭子兴帐下';document.getElementById('next').focus();};document.addEventListener('visibilitychange',()=>{if(document.hidden&&started){video.pause();write();}});window.addEventListener('pagehide',()=>write());
+})();

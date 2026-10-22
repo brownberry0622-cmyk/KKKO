@@ -1,0 +1,80 @@
+{
+  "assertions": 7159,
+  "report": [
+    {
+      "chapter": 1,
+      "operations": [
+        "prepare",
+        "opening",
+        "marriage",
+        "rescue",
+        "siege1",
+        "siege2",
+        "siege3",
+        "salt",
+        "recruit",
+        "departure"
+      ],
+      "grain": 0,
+      "fatigue": 33,
+      "wounded": 1
+    },
+    {
+      "chapter": 2,
+      "operations": [
+        "return",
+        "envoy",
+        "stockade",
+        "hengjian",
+        "muster",
+        "li",
+        "chuzhou",
+        "guo",
+        "liuhe",
+        "ravine"
+      ],
+      "grain": 240,
+      "fatigue": 49,
+      "wounded": 10
+    },
+    {
+      "chapter": 3,
+      "operations": [
+        "hezhou",
+        "hostage",
+        "hezhoufight",
+        "succession",
+        "chang",
+        "chaohu",
+        "caishi",
+        "taiping",
+        "taipingfight",
+        "setback",
+        "watergate",
+        "fangshan",
+        "jiqing"
+      ],
+      "grain": 375,
+      "fatigue": 2,
+      "wounded": 6
+    },
+    {
+      "chapter": 4,
+      "choice": "steady",
+      "phase": "complete",
+      "nodes": 41,
+      "projectFund": 47,
+      "wounded": 24,
+      "fatigue": 0
+    },
+    {
+      "chapter": 4,
+      "choice": "urgent",
+      "phase": "complete",
+      "nodes": 41,
+      "projectFund": 65,
+      "wounded": 31,
+      "fatigue": 100
+    }
+  ]
+}

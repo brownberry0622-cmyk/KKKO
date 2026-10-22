@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "updated": "2026-10-21T13:19:04.823759",
+  "chapters": 8,
+  "years": "1352–1368",
+  "taskFilms": 472,
+  "taskSceneOriginals": 1421,
+  "finaleOriginals": 18,
+  "verifiedSceneOriginals": 1439,
+  "crossEventDuplicateOriginals": 0,
+  "missingAssetReferences": 0,
+  "modelChecks": 8336,
+  "limits": [
+    "浏览器单机版本，第三人称场景和棋盘人物为简化模型。",
+    "独立水墨场景使用静帧分镜；暂无配音。",
+    "未将服饰、对白、棋盘、兵额和操作数值宣称为历史实测资料。"
+  ],
+  "cloudflareUploaded": false
+}
