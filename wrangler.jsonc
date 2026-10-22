@@ -1,9 +1,0 @@
-{
-  "name": "kkko",
-  "compatibility_date": "2026-10-22",
-  "assets": {
-    "directory": ".",
-    "binding": "ASSETS",
-    "not_found_handling": "none"
-  }
-}
