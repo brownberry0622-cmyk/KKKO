@@ -1,0 +1,171 @@
+/* ============ 牛牛桌宠 · NIUNIU PET ============ */
+/* 尺寸必须写死在 .nn-root 上：fixed 元素若无显式宽高，
+   宽度会按"视口剩余空间"自动收缩，拖动时会导致越往左越小、越往右越大 */
+.nn-root{--fur:#ffe8b0;--line:#e5c98a;--spot:#d29a55;--hoof:#9a6b3f;--horn:#f5ecd2;--hornline:#d9c48f;--collar:#ff9d5c;position:fixed;right:22px;bottom:22px;width:118px;height:118px;z-index:9999;font-family:Inter,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;user-select:none;-webkit-user-select:none;touch-action:none;cursor:grab;filter:drop-shadow(0 10px 18px #b5874038);animation:nn-bob 3.2s ease-in-out infinite}
+.nn-root *{box-sizing:border-box}
+
+/* —— 皮肤系统（点 🎨 循环切换） —— */
+.nn-root[data-skin="cow"]{--fur:#ffffff;--line:#d8e6ee;--spot:#4b4544;--hoof:#5a4632;--horn:#e8d9b0;--hornline:#cbb577;--collar:#c4678c;filter:drop-shadow(0 10px 18px #3d789038)}
+.nn-root[data-skin="coffee"]{--fur:#e3b285;--line:#c9955e;--spot:#8a5a2e;--hoof:#5f3d1e;--horn:#f5ecd2;--hornline:#d9c48f;--collar:#7a9b57;filter:drop-shadow(0 10px 18px #8a5a2e38)}
+.nn-root[data-skin="sakura"]{--fur:#ffdce8;--line:#f2b9cf;--spot:#e386a8;--hoof:#c06a8c;--horn:#fff3f7;--hornline:#e8b8ca;--collar:#8ab4e8;filter:drop-shadow(0 10px 18px #e386a838)}
+.nn-root[data-skin="mint"]{--fur:#d6f2e3;--line:#a5d9c0;--spot:#6fbf97;--hoof:#3f8a67;--horn:#eefaf2;--hornline:#b7ddc8;--collar:#f0975a;filter:drop-shadow(0 10px 18px #6fbf9738)}
+.nn-root[data-skin="night"]{--fur:#b9c6e8;--line:#8f9fc9;--spot:#4a5a8f;--hoof:#2f3d68;--horn:#e8edfa;--hornline:#aab8dd;--collar:#7ce0d3;filter:drop-shadow(0 10px 18px #4a5a8f38)}
+.nn-svg .nn-fur{fill:var(--fur)}
+.nn-svg .nn-tailfur{stroke:var(--fur)}
+.nn-svg .nn-line{stroke:var(--line)}
+.nn-svg .nn-spot{fill:var(--spot)}
+.nn-svg .nn-hoof{fill:var(--hoof)}
+.nn-svg .nn-horn{fill:var(--horn);stroke:var(--hornline)}
+.nn-svg .nn-collar{fill:var(--collar)}
+
+/* —— 宠物本体动画 —— */
+.nn-root:active{cursor:grabbing}
+.nn-root.nn-dragging{animation:none;transform:rotate(-3deg)}
+.nn-root.nn-happy{animation:nn-hop .5s ease 2}
+@keyframes nn-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes nn-hop{0%,100%{transform:translateY(0)}40%{transform:translateY(-16px)}70%{transform:translateY(0)}}
+.nn-svg{width:100%;height:100%;display:block;pointer-events:none}
+.nn-svg .nn-eye,.nn-svg .nn-eye-happy,.nn-svg .nn-eye-sleep{transform-box:fill-box;transform-origin:center}
+.nn-svg .nn-eye{animation:nn-blink 4.6s infinite}
+@keyframes nn-blink{0%,91.5%,100%{transform:scaleY(1)}94%,96%{transform:scaleY(.08)}}
+.nn-svg .nn-tail{transform-box:fill-box;transform-origin:top center;animation:nn-wag 1.8s ease-in-out infinite}
+@keyframes nn-wag{0%,100%{transform:rotate(-10deg)}50%{transform:rotate(16deg)}}
+.nn-svg .nn-ear-l,.nn-svg .nn-ear-r{transform-box:fill-box;transform-origin:inner}
+.nn-svg .nn-ear-r{animation:nn-ear 5s ease-in-out infinite}
+@keyframes nn-ear{0%,86%,100%{transform:rotate(0)}90%{transform:rotate(-14deg)}94%{transform:rotate(8deg)}}
+.nn-root.nn-happy .nn-eye{display:none}
+.nn-root.nn-happy .nn-eye-happy{display:block}
+
+/* —— 摸头拟真小动作 —— */
+/* 歪头蹭手：头部整体轻微摇摆下压 */
+.nn-svg .nn-head{transform-box:fill-box;transform-origin:50% 85%}
+.nn-root.nn-happy .nn-head{animation:nn-nuzzle .55s ease-in-out 2}
+@keyframes nn-nuzzle{0%,100%{transform:rotate(0) translateY(0)}40%{transform:rotate(5deg) translateY(2px)}70%{transform:rotate(-3deg) translateY(1px)}}
+/* 耳朵开心耷拉又弹回 */
+.nn-root.nn-happy .nn-ear-l{animation:nn-droop-l .55s ease-in-out 2}
+.nn-root.nn-happy .nn-ear-r{animation:nn-droop-r .55s ease-in-out 2}
+@keyframes nn-droop-l{0%,100%{transform:rotate(0)}50%{transform:rotate(18deg)}}
+@keyframes nn-droop-r{0%,100%{transform:rotate(0)}50%{transform:rotate(-18deg)}}
+/* 尾巴摇加速 */
+.nn-root.nn-happy .nn-tail{animation-duration:.35s}
+/* 铃铛叮当晃 */
+.nn-svg .nn-bell{transform-box:fill-box;transform-origin:50% 0}
+.nn-root.nn-happy .nn-bell{animation:nn-ring .16s ease-in-out 7}
+@keyframes nn-ring{0%,100%{transform:rotate(0)}50%{transform:rotate(14deg)}}
+/* 五连击庆祝：原地转一圈 */
+.nn-root.nn-spin{animation:nn-spin 1s ease-in-out}
+@keyframes nn-spin{0%{transform:rotate(0) translateY(0)}30%{transform:translateY(-18px) rotate(130deg)}60%{transform:translateY(-12px) rotate(250deg)}100%{transform:rotate(360deg) translateY(0)}}
+.nn-svg .nn-eye-happy{display:none}
+.nn-svg .nn-eye-sleep{display:none}
+.nn-svg .nn-mouth{display:none}
+.nn-root.nn-munch .nn-mouth{display:block}
+.nn-root.nn-munch{animation:nn-chew .28s ease-in-out 5}
+@keyframes nn-chew{0%,100%{transform:translateY(0)}50%{transform:translateY(2px)}}
+
+/* —— 打瞌睡 —— */
+.nn-root.nn-sleep{animation-duration:6s;cursor:pointer}
+.nn-root.nn-sleep .nn-eye,.nn-root.nn-sleep .nn-eye-happy{display:none}
+.nn-root.nn-sleep .nn-eye-sleep{display:block}
+.nn-zzz{position:absolute;right:36px;top:-6px;display:none;width:36px;height:40px;pointer-events:none}
+.nn-root.nn-sleep .nn-zzz{display:block}
+.nn-zzz span{position:absolute;bottom:6px;font-weight:700;color:#8fa3b8;animation:nn-z 2.4s ease-out infinite}
+.nn-zzz span:nth-child(1){left:0;font-size:15px}
+.nn-zzz span:nth-child(2){left:15px;font-size:12px;animation-delay:.5s}
+.nn-zzz span:nth-child(3){left:26px;font-size:9px;animation-delay:1s}
+@keyframes nn-z{0%{opacity:0;transform:translateY(8px)}30%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}
+
+/* —— 半圆弧按钮：四个功能 + ✕ 沿左半圈扇形排开（不遮挡牛牛），✕ 随弧一起翻转 —— */
+.nn-tools{position:absolute;inset:0;pointer-events:none}
+.nn-tools .nn-btn,.nn-pos-x{pointer-events:auto;position:absolute}
+.nn-pos-1{left:-1px;top:-19px}    /* 💬 φ35° */
+.nn-pos-2{left:-24px;top:8px}     /* 🍎 φ62.5° */
+.nn-pos-3{left:-32px;top:42px}    /* 🎨 φ90° */
+.nn-pos-4{left:-24px;top:76px}    /* 🎁 φ117.5° */
+.nn-pos-x{left:4px;top:107px}     /* ✕ φ145° 弧底（小号，随弧翻转） */
+.nn-root.nn-edge-left .nn-pos-1{left:auto;right:-1px}
+.nn-root.nn-edge-left .nn-pos-2{left:auto;right:-24px}
+.nn-root.nn-edge-left .nn-pos-3{left:auto;right:-32px}
+.nn-root.nn-edge-left .nn-pos-4{left:auto;right:-24px}
+.nn-root.nn-edge-left .nn-pos-x{left:auto;right:4px}
+
+/* —— 操作按钮 —— */
+.nn-btn{width:34px;height:34px;border-radius:50%;border:1px solid #b9d9e8;background:#fffffff2;color:#2f6c87;font-size:15px;line-height:1;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 12px #3d789022;transition:transform .15s,background .15s;padding:0}
+.nn-btn:hover{transform:scale(1.12);background:#fff}
+.nn-btn.nn-close{width:26px;height:26px;font-size:12px;border-radius:50%;background:#ffe9ef;color:#c4678c;border-color:#f0c6d4}
+
+/* —— 对话气泡 —— */
+.nn-root.nn-edge-left .nn-bubble{right:auto;left:6px;border-radius:14px 14px 14px 4px}
+.nn-root.nn-edge-left .nn-bubble:after{right:auto;left:16px;border-right:none;border-left:1px solid #b9d9e8;transform:rotate(-45deg) skew(-8deg,-8deg)}
+.nn-root.nn-edge-left .nn-panel{right:auto;left:0;transform-origin:bottom left}
+.nn-bubble{position:absolute;bottom:138px;right:6px;max-width:230px;background:#fff;border:1px solid #b9d9e8;border-radius:14px 14px 4px 14px;padding:10px 13px;font-size:13px;line-height:1.65;color:#1f4f68;box-shadow:0 8px 22px #3d78902b;opacity:0;transform:translateY(8px);transform-origin:bottom right;transition:opacity .25s,transform .25s;pointer-events:none}
+.nn-bubble:after{content:"";position:absolute;right:16px;bottom:-7px;width:12px;height:12px;background:#fff;border-right:1px solid #b9d9e8;border-bottom:1px solid #b9d9e8;transform:rotate(45deg) skew(8deg,8deg)}
+.nn-bubble.show{opacity:1;transform:translateY(0)}
+
+/* —— 爱心粒子 —— */
+.nn-heart{position:absolute;font-size:16px;pointer-events:none;animation:nn-float 1.2s ease-out forwards;z-index:2}
+@keyframes nn-float{0%{opacity:0;transform:translateY(0) scale(.4)}20%{opacity:1}100%{opacity:0;transform:translateY(-64px) translateX(var(--dx,0)) scale(1.15) rotate(var(--rot,0))}}
+
+/* —— 面板通用（聊天 / 商店） —— */
+.nn-panel{position:absolute;bottom:140px;right:0;width:296px;background:#fdfeff;border:1px solid #b9d9e8;border-radius:16px;box-shadow:0 18px 46px #3d789033;overflow:hidden;display:flex;flex-direction:column;opacity:0;transform:translateY(10px) scale(.96);transform-origin:bottom right;transition:opacity .22s,transform .22s;pointer-events:none}
+.nn-panel.open{opacity:1;transform:none;pointer-events:auto}
+.nn-panel-head{display:flex;align-items:center;gap:9px;padding:11px 14px;background:linear-gradient(135deg,#eaf7ff,#d9f0fb);border-bottom:1px solid #cde4f0}
+.nn-panel-head .nn-avatar{width:34px;height:34px;border-radius:50%;background:#fff;border:1px solid #cde4f0;display:flex;align-items:center;justify-content:center;font-size:19px}
+.nn-panel-head .nn-title{flex:1;min-width:0}
+.nn-panel-head .nn-title b{display:block;font-size:13px;color:#1f526b;letter-spacing:1px}
+.nn-panel-head .nn-title small{font-size:10px;color:#52788d;letter-spacing:.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.nn-panel-head .nn-x{border:none;background:transparent;color:#52788d;font-size:15px;cursor:pointer;padding:4px 6px;border-radius:8px}
+.nn-panel-head .nn-x:hover{background:#cde4f066}
+
+/* —— 聊天面板 —— */
+.nn-msgs{height:238px;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:9px;background:#fbfdff}
+.nn-msgs::-webkit-scrollbar{width:5px}
+.nn-msgs::-webkit-scrollbar-thumb{background:#cde4f0;border-radius:4px}
+.nn-msg{max-width:82%;font-size:12.5px;line-height:1.7;padding:8px 11px;border-radius:12px;word-break:break-word}
+.nn-msg.cow{align-self:flex-start;background:#eaf7ff;color:#1f4f68;border:1px solid #d3e9f4;border-top-left-radius:4px}
+.nn-msg.me{align-self:flex-end;background:#2f6c87;color:#fff;border-top-right-radius:4px}
+.nn-msg b{font-weight:700}
+.nn-inputrow{display:flex;gap:8px;padding:10px;border-top:1px solid #e2eff6;background:#fdfeff}
+.nn-inputrow input{flex:1;min-width:0;border:1px solid #cde4f0;border-radius:20px;padding:8px 13px;font-size:12.5px;outline:none;color:#1f4f68;background:#fff}
+.nn-inputrow input:focus{border-color:#8cc3de;box-shadow:0 0 0 3px #b9d9e855}
+.nn-inputrow button{border:none;background:#2f6c87;color:#fff;border-radius:20px;padding:0 15px;font-size:12px;letter-spacing:2px;cursor:pointer}
+.nn-inputrow button:hover{background:#245d78}
+
+/* —— 装扮商店 —— */
+.nn-items{max-height:252px;overflow-y:auto;padding:10px 12px;display:flex;flex-direction:column;gap:8px;background:#fbfdff}
+.nn-items::-webkit-scrollbar{width:5px}
+.nn-items::-webkit-scrollbar-thumb{background:#cde4f0;border-radius:4px}
+.nn-item{display:flex;align-items:center;gap:9px;border:1px solid #dcebf3;border-radius:10px;padding:8px 10px;background:#fff}
+.nn-item .nn-item-emoji{font-size:20px;flex:none}
+.nn-item .nn-item-name{flex:1;min-width:0;font-size:12.5px;color:#1f4f68}
+.nn-item .nn-item-name small{display:block;color:#8ba7b5;font-size:10px;margin-top:2px}
+.nn-item button{border:none;border-radius:14px;padding:5px 10px;font-size:11px;cursor:pointer;background:#2f6c87;color:#fff;white-space:nowrap;font-family:inherit}
+.nn-item button:hover{background:#245d78}
+.nn-item button.owned{background:#8cc3de;color:#123c4e}
+.nn-item button.worn{background:#eaf7ff;color:#2f6c87;border:1px solid #b9d9e8}
+.nn-item button.poor{opacity:.5;cursor:not-allowed}
+.nn-shop-note{padding:8px 14px;font-size:11.5px;color:#52788d;border-top:1px solid #e2eff6;background:#fdfeff;min-height:34px;line-height:1.6}
+
+/* —— 隐藏后的恢复小球 —— */
+.nn-restore{position:fixed;right:18px;bottom:18px;z-index:9999;width:52px;height:52px;border-radius:50%;background:#fff;border:1px solid #b9d9e8;box-shadow:0 8px 20px #3d78902e;font-size:24px;cursor:pointer;display:none;align-items:center;justify-content:center;animation:nn-bob 3.2s ease-in-out infinite}
+.nn-restore:hover{transform:scale(1.08)}
+.nn-restore.show{display:flex}
+
+@media(max-width:600px){
+  /* 牛牛尺寸固定，不随屏幕缩放 */
+  .nn-bubble{right:0;max-width:180px;font-size:12px}
+  .nn-panel{width:min(296px,calc(100vw - 36px))}
+  .nn-pos-1{left:1px;top:-17px}
+  .nn-pos-2{left:-22px;top:10px}
+  .nn-pos-3{left:-30px;top:44px}
+  .nn-pos-4{left:-22px;top:78px}
+  .nn-pos-x{left:4px;top:108px}
+  .nn-root.nn-edge-left .nn-pos-1{left:auto;right:1px}
+  .nn-root.nn-edge-left .nn-pos-2{left:auto;right:-22px}
+  .nn-root.nn-edge-left .nn-pos-3{left:auto;right:-30px}
+  .nn-root.nn-edge-left .nn-pos-4{left:auto;right:-22px}
+  .nn-root.nn-edge-left .nn-pos-x{left:auto;right:4px}
+  .nn-btn{width:30px;height:30px;font-size:13px}
+  .nn-btn.nn-close{width:24px;height:24px;font-size:11px}
+  /* iOS Safari：输入框字号 <16px 聚焦时会强制缩放页面，必须放大到 16px */
+  .nn-inputrow input{font-size:16px}
+}
