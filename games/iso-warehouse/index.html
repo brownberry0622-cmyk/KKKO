@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#0f1620">
+<title>无人值守备件仓 · 实时领料</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+
+  <!-- 顶部：品牌 + 统计条 -->
+  <header class="topbar">
+    <div class="brand"><span class="logo">◈</span><div>无人值守备件仓<small>UNMANNED SPARE-PARTS WAREHOUSE · WCS</small></div></div>
+    <div class="stat-strip" id="kpi">
+      <div class="stat"><label>库存</label><b id="k-stock">0</b></div>
+      <div class="stat"><label>今日入库</label><b id="k-in">0</b></div>
+      <div class="stat"><label>今日出库</label><b id="k-out">0</b></div>
+      <div class="stat"><label>执行中</label><b id="k-active">0</b></div>
+      <div class="stat"><label>异常</label><b id="k-fail" style="color:#d84a38">0</b></div>
+      <div class="stat donut-mini"><div class="ring" id="d1"></div><span id="d1v">–</span><label>占用</label></div>
+      <div class="stat donut-mini"><div class="ring" id="d2"></div><span id="d2v">–</span><label>完成率</label></div>
+    </div>
+    <div class="top-ctrl">
+      <span class="money" id="money">💰 ¥0</span>
+      <a class="back" href="../../index.html" title="返回大厅">←</a>
+    </div>
+  </header>
+
+  <!-- 左侧：工单队列（常驻） -->
+  <aside class="side left-panel">
+    <div class="side-head"><b>📋 工单队列</b><button class="mini-btn" id="mul-btn">＋无单领料</button></div>
+    <div class="side-body" id="orders-body"></div>
+  </aside>
+
+  <!-- 右侧：人员任务详情（常驻） -->
+  <aside class="side right-panel">
+    <div class="side-head"><b id="info-title">人员任务详情</b></div>
+    <div class="side-body" id="info-body"></div>
+  </aside>
+
+  <!-- 弹出叠层：库存 / 班组 / 看板（由底部按钮唤起） -->
+  <section class="overlay" id="panel-inv">
+    <div class="p-head"><b>📦 库存总览</b><button class="p-close" data-close>×</button></div>
+    <div class="p-body" id="inv-body"></div>
+  </section>
+  <section class="overlay" id="panel-team">
+    <div class="p-head"><b>🚶 操作员班组（三色通道）</b><button class="p-close" data-close>×</button></div>
+    <div class="p-body" id="team-body"></div>
+  </section>
+  <section class="overlay" id="panel-dash">
+    <div class="p-head"><b>📊 数据看板</b><button class="p-close" data-close>×</button></div>
+    <div class="p-body" id="dash-body"></div>
+  </section>
+
+  <!-- 底部：控制 + 图层开关 -->
+  <footer class="bottombar">
+    <div class="ctrl-group">
+      <button id="pause" title="暂停 / 继续（空格）">⏸ 暂停</button>
+      <button id="speed" title="模拟倍速">1×</button>
+      <button id="reset-view" title="复位视角">⟳ 视角</button>
+      <button id="follow" title="镜头跟随执行人员（再按关闭，关闭后可自由拖动/缩放）">🎥 跟随</button>
+      <button id="pause-dispatch" title="暂停 / 恢复自动派发（暂停时可手动派发）">⏸ 派发</button>
+      <button id="manual-dispatch" title="手动派发一次（暂停派发时可用）">↻ 手动派</button>
+    </div>
+    <div class="divider"></div>
+    <div class="ctrl-group">
+      <button id="layer-path" class="layer on" title="人员路径线">⊷ 路径</button>
+      <button id="layer-hl" class="layer on" title="目标库位高亮">◎ 高亮</button>
+    </div>
+    <div class="divider"></div>
+    <div class="ctrl-group">
+      <button class="overlay-btn" data-panel="inv">📦 库存</button>
+      <button class="overlay-btn" data-panel="team">🚶 班组</button>
+      <button class="overlay-btn" data-panel="dash">📊 看板</button>
+    </div>
+  </footer>
+
+  <div id="toasts"></div>
+  <div class="hint" id="hint">拖动旋转 · 滚轮缩放 · 点击工人/库位看详情 · 工单自动下发 → 刷脸进仓 → LED 引导取料 → 计重/扫码/视觉校验 → 上报 WMS</div>
+</div>
+<script src="game.js?v=door10"></script>
+</body>
+</html>

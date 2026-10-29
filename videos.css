@@ -1,0 +1,11 @@
+:root{--mem-ink:#3b3550;--mem-muted:#8b8398;--mem-line:#e6dfec}
+.game-card.video-card .cover.cover-video{background:#e9e2db center/cover no-repeat}
+.cover.cover-video:before{content:none}
+.cover.cover-video .cover-caption{color:#fff;text-shadow:0 1px 10px #2c2440cc}
+.cover.cover-video .badge{background:#ffffffdd;border-color:#ffffff;color:#5f5478}
+.cover.cover-video .cover-number{color:#fff;text-shadow:0 1px 8px #2c2440aa}
+.play-mark{position:absolute;left:50%;top:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:#ffffffd9;box-shadow:0 12px 30px #3a305533;display:flex;align-items:center;justify-content:center;transition:transform .2s,background .2s}
+.play-mark:before{content:"";display:block;margin-left:4px;border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent #6d5f97}
+a.game-card.video-card:hover .play-mark{transform:scale(1.08);background:#fff}
+.video-card .play{background:#6d5f97}
+.video-card .game-title h2{letter-spacing:2px}

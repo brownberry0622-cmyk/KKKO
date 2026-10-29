@@ -1,0 +1,26 @@
+:root{--ink:#3b3550;--muted:#8b8398;--line:#ece7f0;--paper:#fbf8f4;--accent:#7c6bb0}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:linear-gradient(180deg,#f7f2ec 0%,#fbf8f4 60%,#f4f0f8 100%);color:var(--ink);font-family:Inter,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+header{height:78px;max-width:1180px;margin:auto;padding:0 5%;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:12px;align-items:center;font-size:15px;font-weight:600;letter-spacing:2px;color:inherit;text-decoration:none}
+.brand-icon{font-size:28px;color:#9c8fca}
+.brand small{display:block;font-size:9px;color:var(--muted);font-weight:400;letter-spacing:2px;margin-top:4px}
+.back{font-size:11px;letter-spacing:2px;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:20px;padding:8px 15px;transition:color .2s,border-color .2s}
+.back:hover{color:var(--accent);border-color:#cec3e4}
+main{max-width:1180px;margin:auto;padding:22px 5% 70px}
+.stage{border-radius:20px;overflow:hidden;background:#e9e2db;box-shadow:0 22px 60px #4a3f6018;aspect-ratio:16/9}
+.stage video{display:block;width:100%;height:100%;object-fit:contain;background:#e9e2db}
+.copy{margin-top:28px;display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;justify-content:space-between}
+.eyebrow{font-size:10px;letter-spacing:3px;color:var(--accent);margin-bottom:9px}
+h1{font-size:32px;font-weight:500;letter-spacing:3px;margin:0 0 9px}
+.meta{font-size:11px;letter-spacing:1px;color:var(--muted)}
+.desc{max-width:640px;font-size:13px;line-height:2;color:#8b8295;margin:16px 0 0}
+.pill{font-size:10px;letter-spacing:2px;color:var(--accent);background:#f1ecf9;border:1px solid #e2d9f2;border-radius:20px;padding:7px 14px;white-space:nowrap}
+footer{max-width:1180px;margin:auto;padding:22px 5%;border-top:1px solid var(--line);font-size:10px;letter-spacing:2px;color:#aaa3b5}
+@media(max-width:600px){
+  header{height:68px}
+  .brand{font-size:13px}
+  h1{font-size:24px;letter-spacing:2px}
+  .desc{font-size:12px}
+  main{padding-top:14px}
+}

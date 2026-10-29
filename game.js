@@ -40,6 +40,7 @@
     else if (game.cover === 'war') cover.append(warArt());
     else if (game.cover === 'candy') cover.classList.add('cover-candy');
     else if (game.cover === 'hongwu') cover.classList.add('cover-hongwu');
+    else if (game.cover === 'iso') cover.classList.add('cover-iso');
     else cover.append(create('div', 'generic-art', '✦'));
     cover.append(create('span', 'cover-caption', game.subtitle || game.title));
     const info = create('div', 'game-info');
@@ -60,4 +61,33 @@
     grid.append(card);
   }
   if (!list.length) grid.append(create('p', 'empty', '小游戏正在准备中，稍后再来看看。'));
+
+  const videoGrid = document.getElementById('videos');
+  const videos = Array.isArray(window.ARCADE_VIDEOS) ? window.ARCADE_VIDEOS : [];
+  const videoToolbar = document.getElementById('video-toolbar');
+  const videoCount = document.getElementById('video-count');
+  if (videoCount) videoCount.textContent = videos.length;
+  if (videoGrid) {
+    if (!videos.length && videoToolbar) videoToolbar.hidden = true;
+    videos.forEach((video, index) => {
+      const playable = typeof video.url === 'string' && video.url.length > 0;
+      const card = create(playable ? 'a' : 'article', 'game-card video-card');
+      if (playable) card.href = video.url;
+      card.setAttribute('aria-label', video.title + (playable ? '，播放短片' : '，敬请期待'));
+      const cover = create('div', 'cover cover-video');
+      if (video.cover) cover.style.backgroundImage = "url('" + video.cover + "')";
+      const top = create('div', 'cover-top');
+      top.append(create('span', 'badge', playable ? (video.badge || '播放短片') : '敬请期待'), create('span', 'cover-number', String(index + 1).padStart(2, '0')));
+      cover.append(top, create('span', 'play-mark'), create('span', 'cover-caption', video.subtitle || video.title));
+      const info = create('div', 'game-info');
+      const title = create('div', 'game-title');
+      title.append(create('h2', '', video.title), create('span', 'category', video.category || '短片'));
+      info.append(title, create('p', 'description', video.description || ''));
+      const bottom = create('div', 'game-bottom');
+      bottom.append(create('span', 'record-note', video.duration || '短片'), create('span', 'play', playable ? '播放短片 ↗' : '即将上线'));
+      info.append(bottom);
+      card.append(cover, info);
+      videoGrid.append(card);
+    });
+  }
 })();

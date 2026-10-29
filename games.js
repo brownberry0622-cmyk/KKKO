@@ -50,5 +50,17 @@ window.ARCADE_GAMES = [
     ready: true,
     cover: 'hongwu',
     bestKey: ''
+  },
+  {
+    id: 'iso-warehouse',
+    title: '智慧仓库',
+    subtitle: '等距经营 · 月台调度',
+    description: '经营一座等距视角的物流中心：卡车进出月台、叉车自动装卸，你负责扩建车队、提升吞吐、保住准点率。',
+    category: '模拟 · 经营',
+    badge: '即刻开玩',
+    url: 'games/iso-warehouse/index.html',
+    ready: true,
+    cover: 'iso',
+    bestKey: ''
   }
 ];
