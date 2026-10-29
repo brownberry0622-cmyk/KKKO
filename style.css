@@ -13,25 +13,8 @@
 .cover.cover-hongwu .cover-caption{color:#f0e6cd;text-shadow:0 1px 6px #23332ecc}
 .cover.cover-hongwu .badge{background:#23332eb8;border-color:#b69b63;color:#e9dec4}
 
-/* 智慧仓库卡片封面：CSS 等距货箱堆场 */
-.cover.cover-iso{
-  background:
-    conic-gradient(from 0deg at 30% 68%, rgba(59,111,212,.0) 0deg, rgba(59,111,212,.0) 0deg),
-    radial-gradient(circle at 78% 22%, rgba(59,111,212,.28), transparent 42%),
-    linear-gradient(180deg, #eef2f8, #dfe6f0);
-}
-.cover.cover-iso:before{
-  content:"";position:absolute;inset:0;
-  background:
-    linear-gradient(135deg, transparent 0 46%, rgba(59,111,212,.75) 46% 52%, transparent 52%),
-    linear-gradient(-45deg, transparent 0 46%, rgba(232,151,79,.8) 46% 52%, transparent 52%),
-    linear-gradient(135deg, transparent 0 62%, rgba(59,111,212,.55) 62% 68%, transparent 68%),
-    linear-gradient(-45deg, transparent 0 64%, rgba(232,151,79,.55) 64% 70%, transparent 70%),
-    linear-gradient(0deg, transparent 0 100%);
-  background-size:120px 120px,120px 120px,90px 90px,90px 90px,100% 100%;
-  background-position:0 100%,100% 0,20px 100%,100% 20px,0 0;
-  background-repeat:repeat-x;
-  opacity:.85;
-}
-.cover.cover-iso .cover-caption{color:#2b3442;text-shadow:0 1px 4px #ffffffcc}
-.cover.cover-iso .badge{background:#3b6fd4;border-color:#3b6fd4;color:#fff}
+/* 智慧仓库卡片封面：无人值守备件仓实景 */
+.cover.cover-iso{background:#dce6ed url(assets/iso-warehouse-cover.webp) center 48%/cover no-repeat}
+.cover.cover-iso:before{content:none}
+.cover.cover-iso .cover-caption{color:#20364a;text-shadow:0 1px 5px #fff}
+.cover.cover-iso .badge{background:#137d82d9;border-color:#71d7d2;color:#fff}
